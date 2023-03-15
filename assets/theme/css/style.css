@@ -40,6 +40,7 @@ body {
 	color: #000000;
 	font-size: 18px;
 	text-transform: capitalize;
+	margin-top: 5%;
 }
 #menu a.dropdown-arrow:after {
 	content: "\25BE";
