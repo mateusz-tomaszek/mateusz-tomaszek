@@ -15,9 +15,11 @@ body {
 	background: linear-gradient(to bottom,  #FFFFFF,  #FFFFFF);
 	color: #FFF;
 	height: 45px;
-	padding-left: 18px;
+	padding-left: 15%;
 	border-radius: 0px;
-	border: 1px solid #6D6D6D;
+	border: 0px solid #6D6D6D;
+  margin-top: 1%;
+  align-items: center;
 }
 #menu ul, #menu li {
 	margin: 0 auto;
