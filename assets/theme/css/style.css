@@ -18,8 +18,8 @@ body {
 	padding-left: 15%;
 	border-radius: 0px;
 	border: 0px;
-  margin-top: 1%;
-  align-items: center;
+  margin-top: 10%;
+  position: absolute;
 }
 #menu ul, #menu li {
 	margin: 0 auto;
