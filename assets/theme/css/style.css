@@ -10,6 +10,12 @@ body {
   color: #232323;
   position: relative;
 }
+a[href="zdj.html"]
+{
+  color: #000000;
+
+}
+
 
 button {
   background-color: transparent;
