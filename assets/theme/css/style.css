@@ -20,6 +20,7 @@ body {
 	border: 0px;
   margin-top: 10%;
   position: absolute;
+	top:20%;
 }
 #menu ul, #menu li {
 	margin: 0 auto;
