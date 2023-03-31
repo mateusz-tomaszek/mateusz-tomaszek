@@ -15,7 +15,7 @@ nav
 }
 .nav1
 {
-    background-color: rgb(196, 37, 37);
+    background-color: rgb(19,19,19);
     position: absolute;
     float: left;
     top: 0%;
@@ -119,13 +119,4 @@ color: rgb(114, 201, 252);
 .dropdown ul:hover
 {
     display: block;
-}
-.test
-{
-    background-color: red;
-    position: absolute;
-    top:40%;
-    width: 50%;
-    left: 10%;
-    height: 200px;
 }
