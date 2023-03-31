@@ -117,7 +117,7 @@ color: rgb(114, 201, 252);
 }
 .menu1:hover .dropdown ul,
 .dropdown ul:hover,
-.menu1:focus .dropdown ul,
+.dropdown ul:focus
 {
     display: block;
 }
