@@ -1,0 +1,122 @@
+body
+{
+    background-color: rgb(19, 19, 19);
+    font-family:Courier;
+}
+nav
+{
+
+    position: fixed;
+    float: left;
+    top: 10px;
+    left: 5%;
+    width: 90%;
+    height: 50px;
+}
+.nav1
+{
+    background-color: rgb(19, 19, 19);
+    position: absolute;
+    float: left;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 70%;
+    font-size: 30px;
+}
+a[href="https://mateusztomaszek.com.pl/"]
+{
+    position: absolute;
+    text-decoration: none;
+    top: 20%;
+    align-items: center;
+    height: 80%;
+    font-weight: bold;
+    color: rgb(0, 162, 255);
+    
+    
+}
+a[href="https://mateusztomaszek.com.pl/"]:hover
+{
+color: rgb(114, 201, 252);
+}
+
+.menu1
+{
+    
+    position: absolute;
+    float: left;
+    top:0%;
+    right: 0%;
+    height: 70px;
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.hover_menu
+{
+    display: none;
+    
+}
+.menu1:hover .hover_menu
+{
+    display: inline;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+
+.menu1 a
+{
+    margin: 0 1rem;
+    text-decoration: none;
+    padding: 1rem .5rem;
+}
+.dropdown
+{
+    position: relative;
+}
+
+.dropdown ul
+{
+    
+    width: 200px;
+    text-align: center;
+    position: absolute;
+    float: left;
+    right: 0%;
+    top: 50px;
+    color:white;
+    padding: 0;
+    list-style-type: none;
+    box-shadow: 10px 10px 23px 5px rgba(0,0,0,0.25);
+    border-radius: 7px;
+    width: 300px;
+    display: none;
+} 
+.dropdown ul li a
+{
+    color: rgb(0, 162, 255);
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.dropdown ul li
+{
+    padding: .5rem;
+}
+.dropdown ul li:hover
+{
+    background-color:rgb(42, 53, 61);
+    border-radius: 7px;
+    
+}
+.menu1:hover .dropdown ul,
+.dropdown ul:hover
+{
+    display: block;
+}
