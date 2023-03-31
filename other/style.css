@@ -3,6 +3,7 @@ body
     background-color: rgb(19, 19, 19);
     font-family:sans-serif;
 }
+
 nav
 {
 
@@ -25,7 +26,7 @@ nav
     width: 80%;
     font-size: 20px;
 }
-a[href="https://mateusztomaszek.com.pl/"]
+.nav1 a[href="https://mateusztomaszek.com.pl/"]
 {
     position: absolute;
     text-decoration: none;
@@ -37,7 +38,7 @@ a[href="https://mateusztomaszek.com.pl/"]
     
     
 }
-a[href="https://mateusztomaszek.com.pl/"]:hover
+.nav1 a[href="https://mateusztomaszek.com.pl/"]:hover
 {
 color: rgb(114, 201, 252);
 }
@@ -130,10 +131,27 @@ color: rgb(114, 201, 252);
 }
 
 
+article
+{
 
+    position: absolute;
+    top: 200px;
+    height: 60%;
+    width: 100%;
+    left: 0%;
+    color: rgb(0, 162, 255);
+    animation:text-shadow-drop-center 1s both;
+    animation:text-pop-up-bottom 1s cubic-bezier(.25,.46,.45,.94) both;
+    text-align: center;
+    font-size: 80px;
+}
 
 
 
 @keyframes shadow-drop-2-center{0%{transform:translateZ(0);box-shadow:0 0 0 0 transparent}100%{transform:translateZ(50px);box-shadow:0 0 20px 0 rgba(0,0,0,.35)}}
 @keyframes slide-bottom{0%{transform:translateY(0)}100%{transform:translateY(100px)}}
 @keyframes tracking-in-expand-fwd{0%{letter-spacing:-.5em;transform:translateZ(-700px);opacity:0}40%{opacity:.6}100%{transform:translateZ(0);opacity:1}}
+
+
+@keyframes text-shadow-drop-center{0%{text-shadow:0 0 0 transparent}100%{text-shadow:0 0 18px rgba(0,0,0,.35)}}
+@keyframes text-pop-up-bottom{0%{transform:translateY(0);transform-origin:50% 50%;text-shadow:none}100%{transform:translateY(50px);transform-origin:50% 50%;text-shadow:0 1px 0 #ccc,0 2px 0 #ccc,0 3px 0 #ccc,0 4px 0 #ccc,0 5px 0 #ccc,0 6px 0 #ccc,0 7px 0 #ccc,0 8px 0 #ccc,0 9px 0 #ccc,0 50px 30px rgba(0,0,0,.3)}}
