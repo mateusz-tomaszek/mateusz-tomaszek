@@ -8,10 +8,11 @@ nav
 
     position: fixed;
     float: left;
-    top: 10px;
+    top: -80px;
     left: 5%;
     width: 90%;
     height: 50px;
+    animation:slide-bottom .5s cubic-bezier(.25,.46,.45,.94) both
 }
 .nav1
 {
@@ -104,7 +105,11 @@ color: rgb(114, 201, 252);
     display: inline-block;
     padding: 0;
     margin: 0;
+
+    
 }
+
+
 .dropdown ul li
 {
     padding: .5rem;
@@ -114,9 +119,21 @@ color: rgb(114, 201, 252);
     background-color:rgb(42, 53, 61);
     border-radius: 7px;
     
+    
 }
 .menu1:hover .dropdown ul,
 .dropdown ul:hover
 {
     display: block;
+    animation:shadow-drop-2-center .4s cubic-bezier(.25,.46,.45,.94) both;
+    animation:tracking-in-expand-fwd .8s cubic-bezier(.215,.61,.355,1.000) both;
 }
+
+
+
+
+
+
+@keyframes shadow-drop-2-center{0%{transform:translateZ(0);box-shadow:0 0 0 0 transparent}100%{transform:translateZ(50px);box-shadow:0 0 20px 0 rgba(0,0,0,.35)}}
+@keyframes slide-bottom{0%{transform:translateY(0)}100%{transform:translateY(100px)}}
+@keyframes tracking-in-expand-fwd{0%{letter-spacing:-.5em;transform:translateZ(-700px);opacity:0}40%{opacity:.6}100%{transform:translateZ(0);opacity:1}}
