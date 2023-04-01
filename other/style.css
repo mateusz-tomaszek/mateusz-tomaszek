@@ -94,7 +94,7 @@ color: rgb(114, 201, 252);
     color:white;
     padding: 0;
     list-style-type: none;
-    background-color: rgba(10, 10, 10, 0.527);
+    background-color: rgba(10, 10, 10, 0.705);
     box-shadow: 10px 10px 23px 5px rgba(0,0,0,0.25);
     border-radius: 7px;
     width: 200px;
@@ -184,7 +184,7 @@ article
     position: absolute;
     float: bottom;
     bottom: 400px;
-    height: 500px;
+    height: 600px;
     width: 100%;
 }
 
@@ -227,6 +227,38 @@ footer p
     align-items: center;
     text-align: center;
 
+}
+
+
+.me1
+{
+    position: absolute;
+    background-color: red;
+    float: left;
+    top: 18%;
+    left: 15%;
+    width: 70%;
+    height: 15%;
+}
+.me2
+{
+    position: absolute;
+    background-color: yellow;
+    float: left;
+    top: 35%;
+    left: 10%;
+    width: 35%;
+    height: 390px;
+}
+.me3
+{
+    position: absolute;
+    background-color: blue;
+    float: right;
+    top: 35%;
+    right: 10%;
+    width: 35%;
+    height: 390px;
 }
 
 @keyframes shadow-drop-2-center{0%{transform:translateZ(0);box-shadow:0 0 0 0 transparent}100%{transform:translateZ(50px);box-shadow:0 0 20px 0 rgba(0,0,0,.35)}}
