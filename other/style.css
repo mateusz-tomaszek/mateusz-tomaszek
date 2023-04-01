@@ -5,11 +5,11 @@ body
 }
 
 nav
-{
-
-    position: fixed;
+{   z-index: 1;
+    background-color: rgb(19, 19, 19);
+    position: fixed !important;
     float: left;
-    top: -80px;
+    top: -100px;
     left: 5%;
     width: 90%;
     height: 50px;
@@ -17,7 +17,7 @@ nav
 }
 .nav1
 {
-    background-color: rgb(19,19,19);
+    background-color: rgb(19, 19, 19);
     position: absolute;
     float: left;
     top: 0%;
@@ -49,6 +49,7 @@ color: rgb(114, 201, 252);
     position: absolute;
     float: left;
     top:0%;
+    align-items: center;
     right: 0%;
     height: 51px;
     width: 50px;
@@ -57,6 +58,7 @@ color: rgb(114, 201, 252);
 }
 .hover_menu
 {
+    align-items: center;
     display: none;
     
 }
@@ -65,7 +67,7 @@ color: rgb(114, 201, 252);
     display: inline;
     position: absolute;
     left: 0%;
-    top: 0%;
+    top: 11%;
 }
 
 .menu1 a
@@ -87,10 +89,11 @@ color: rgb(114, 201, 252);
     position: absolute;
     float: left;
     right: 0%;
-    top: 30px;
+    top: 10px;
     color:white;
     padding: 0;
     list-style-type: none;
+    background-color: rgba(19, 19, 19, 0.425);
     box-shadow: 10px 10px 23px 5px rgba(0,0,0,0.25);
     border-radius: 7px;
     width: 200px;
@@ -130,28 +133,67 @@ color: rgb(114, 201, 252);
     animation:tracking-in-expand-fwd .8s cubic-bezier(.215,.61,.355,1.000) both;
 }
 
-
 article
 {
-
+    top: 100%;
     position: absolute;
-    top: 200px;
-    height: 60%;
-    width: 100%;
-    left: 0%;
-    color: rgb(0, 162, 255);
-    animation:text-shadow-drop-center 1s both;
-    animation:text-pop-up-bottom 1s cubic-bezier(.25,.46,.45,.94) both;
-    text-align: center;
-    font-size: 80px;
+    background-color: blue;
+    height: 400%;
+    left: 5%;
+    width: 90%;
+    box-shadow: 10px 10px 23px 5px rgba(0,0,0,0.25);
 }
 
+
+.main1 img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.article1
+{
+    background-color: yellow;
+    position: absolute;
+    top: 0%;
+    height: 30%;
+    left: 0%;
+    width: 100%;
+}
+
+.article2
+{
+    background-color: green;
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    top: 30%;
+    height: 30%;
+}
+
+.article3
+{
+    background-color: red;
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    top: 60%;
+    height: 40%;
+}
+h1{text-align: center;align-items: center;}
+.main1
+{
+    font-size: 40px;
+    color:white;
+    position: fixed;
+    top: 51px;
+    left: 0%;
+    width: 100%;
+    height: 95%;
+    
+}
 
 
 @keyframes shadow-drop-2-center{0%{transform:translateZ(0);box-shadow:0 0 0 0 transparent}100%{transform:translateZ(50px);box-shadow:0 0 20px 0 rgba(0,0,0,.35)}}
 @keyframes slide-bottom{0%{transform:translateY(0)}100%{transform:translateY(100px)}}
 @keyframes tracking-in-expand-fwd{0%{letter-spacing:-.5em;transform:translateZ(-700px);opacity:0}40%{opacity:.6}100%{transform:translateZ(0);opacity:1}}
-
-
-@keyframes text-shadow-drop-center{0%{text-shadow:0 0 0 transparent}100%{text-shadow:0 0 18px rgba(0,0,0,.35)}}
-@keyframes text-pop-up-bottom{0%{transform:translateY(0);transform-origin:50% 50%;text-shadow:none}100%{transform:translateY(50px);transform-origin:50% 50%;text-shadow:0 1px 0 #ccc,0 2px 0 #ccc,0 3px 0 #ccc,0 4px 0 #ccc,0 5px 0 #ccc,0 6px 0 #ccc,0 7px 0 #ccc,0 8px 0 #ccc,0 9px 0 #ccc,0 50px 30px rgba(0,0,0,.3)}}
