@@ -35,6 +35,7 @@ nav
     height: 80%;
     font-weight: bold;
     color: rgb(0, 162, 255);
+    left: 5px;
     
     
 }
@@ -137,8 +138,7 @@ article
 {
     top: 100%;
     position: absolute;
-    background-color: blue;
-    height: 400%;
+    height: 630%;
     left: 5%;
     width: 90%;
     box-shadow: 10px 10px 23px 5px rgba(0,0,0,0.25);
@@ -160,30 +160,42 @@ article
     background-color:rgb(19, 19, 19);
     position: absolute;
     top: 0%;
-    height: 30%;
+    height: 60%;
     left: 0%;
     width: 100%;
+    float: bottom;
+    bottom: 900px;
+    height: 100%;
+    width: 100%;
 
+}
+.article1 img
+{
+    position: relative;
+    box-shadow: 10px 10px 23px 5px rgba(0, 0, 0, 0.404);
+    border-radius: 5px;
+    margin: 3px;
+    
 }
 
 .article2
 {
     background-color: rgb(19, 19, 19);
     position: absolute;
-    left: 0%;
+    float: bottom;
+    bottom: 400px;
+    height: 500px;
     width: 100%;
-    top: 30%;
-    height: 30%;
 }
 
 .article3
 {
     background-color: rgb(19, 19, 19);
     position: absolute;
-    left: 0%;
+    float: bottom;
+    bottom: 0px;
+    height: 400px;
     width: 100%;
-    top: 60%;
-    height: 40%;
 }
 h1{text-align: center;align-items: center;}
 .main1
@@ -197,7 +209,25 @@ h1{text-align: center;align-items: center;}
     height: 95%;
     
 }
+footer
+{
+    position: absolute;
+    float: bottom;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(40, 40, 40);
+    font-size: 15px;
+    
+}
+footer p
+{   
+    float: bottom;
+    margin-bottom: 5px;
+    align-items: center;
+    text-align: center;
 
+}
 
 @keyframes shadow-drop-2-center{0%{transform:translateZ(0);box-shadow:0 0 0 0 transparent}100%{transform:translateZ(50px);box-shadow:0 0 20px 0 rgba(0,0,0,.35)}}
 @keyframes slide-bottom{0%{transform:translateY(0)}100%{transform:translateY(100px)}}
