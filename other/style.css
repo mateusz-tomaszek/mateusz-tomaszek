@@ -142,6 +142,10 @@ article
     left: 5%;
     width: 90%;
     box-shadow: 10px 10px 23px 5px rgba(0,0,0,0.25);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
 }
 
 
@@ -153,17 +157,18 @@ article
 
 .article1
 {
-    background-color: yellow;
+    background-color:rgb(19, 19, 19);
     position: absolute;
     top: 0%;
     height: 30%;
     left: 0%;
     width: 100%;
+
 }
 
 .article2
 {
-    background-color: green;
+    background-color: rgb(19, 19, 19);
     position: absolute;
     left: 0%;
     width: 100%;
@@ -173,7 +178,7 @@ article
 
 .article3
 {
-    background-color: red;
+    background-color: rgb(19, 19, 19);
     position: absolute;
     left: 0%;
     width: 100%;
