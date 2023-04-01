@@ -233,31 +233,25 @@ footer p
 .me1
 {
     position: absolute;
-    background-color: red;
+    background-color: rgb(30, 30, 30);
     float: left;
     top: 18%;
     left: 15%;
     width: 70%;
     height: 15%;
 }
+.me1 p{    
+    float: center;
+    align-items: center;
+    text-align: center;}
 .me2
 {
     position: absolute;
-    background-color: yellow;
+    background-color: rgb(30, 30, 30);
     float: left;
     top: 35%;
-    left: 10%;
-    width: 600px;
-    height: 390px;
-}
-.me3
-{
-    position: absolute;
-    background-color: blue;
-    float: right;
-    top: 35%;
-    right: 10%;
-    width: 600px;
+    left: 15%;
+    width: 70%;
     height: 390px;
 }
 
