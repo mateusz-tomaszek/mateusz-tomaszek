@@ -299,7 +299,7 @@ footer p
         background-color:rgb(19, 19, 19);
     top: 100%;
     position: absolute;
-    height: 1500px;
+    height: 1800px;
     left: 5%;
     width: 90%;
     box-shadow: 10px 10px 23px 5px rgba(0,0,0,0.25);
@@ -314,15 +314,15 @@ footer p
 #img4{display: none}
 #img5{}
 #img6{display: none}
-#img7{display: none}
+#img7{}
 #img8{display: none}
-#img9{display: none}
-#img10{display: none;}
-#img11{display: none}
+#img9{}
+#img10{display: none}
+#img11{}
 #img12{display: none}
-#img13{display: none;}
+#img13{}
 #img14{display: none;}
-#img15{display: none}
+#img15{}
 
 
 
