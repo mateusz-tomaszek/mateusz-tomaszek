@@ -241,27 +241,7 @@ footer p
 }
 
 
-.me1
-{
-    position: absolute;
-    background-color: rgb(19,19,19);
-    float: left;
-    top: 18%;
-    left: 1%;
-    width: 98%;
-    height: 300px;
-    
-}
-.me1 a{    
-    top:0%;
-    float: top;
-    align-items: top;
-    text-align: top;
-    margin-left: 2px;
-    margin-right: 2px;
-    padding: 0;
-    animation:slide-fwd-center .6s cubic-bezier(.25,.46,.45,.94) both
-}
+
 
 .me2
 {
@@ -315,6 +295,36 @@ footer p
 /*----------------------------------------------------------------*/
 
 @media (min-width: 1767px){
+
+
+    .me1
+{
+    position: absolute;
+    background-color: rgb(19,19,19);
+    float: left;
+    top: 18%;
+    left: 1%;
+    width: 98%;
+    height: 300px;
+    
+}
+.me1 a{    
+    top:0%;
+    float: top;
+    align-items: top;
+    text-align: top;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 0;
+    animation:slide-fwd-center .6s cubic-bezier(.25,.46,.45,.94) both
+}
+
+
+
+
+
+
+
     article{
         all: none;
         background-color:rgb(19, 19, 19);
@@ -379,6 +389,36 @@ footer p
 
 
 @media (max-width: 1766px){
+
+
+
+    .me1
+{
+    position: absolute;
+    background-color: rgb(19,19,19);
+    float: left;
+    top: 18%;
+    left: 1%;
+    width: 98%;
+    height: 300px;
+    
+}
+.me1 a{    
+    top:0%;
+    float: top;
+    align-items: top;
+    text-align: top;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 0;
+    animation:slide-fwd-center .6s cubic-bezier(.25,.46,.45,.94) both
+}
+
+
+
+
+
+
     .main1 img
 {
     width: 100%;
@@ -449,6 +489,35 @@ footer p
 
 
 @media (max-width: 1414px){
+
+
+    .me1
+{
+    position: absolute;
+    background-color: rgb(19,19,19);
+    float: left;
+    top: 18%;
+    left: 1%;
+    width: 98%;
+    height: 300px;
+    
+}
+.me1 a{    
+    top:0%;
+    float: top;
+    align-items: top;
+    text-align: top;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 0;
+    animation:slide-fwd-center .6s cubic-bezier(.25,.46,.45,.94) both
+}
+
+
+
+
+
+
     .main1 img
 {
     width: 100%;
@@ -524,6 +593,33 @@ footer p
 
 
 @media (max-width: 1061px){
+
+    .me1
+{
+    position: absolute;
+    background-color: rgb(19,19,19);
+    float: left;
+    top: 18%;
+    left: 1%;
+    width: 98%;
+    height: 300px;
+    
+}
+.me1 a{    
+    top:0%;
+    float: top;
+    align-items: top;
+    text-align: top;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 0;
+    animation:slide-fwd-center .6s cubic-bezier(.25,.46,.45,.94) both
+}
+
+
+
+
+
     .main1 img
     {
         width: 100%;
@@ -597,6 +693,32 @@ footer p
 
 @media (max-width: 709px){
 
+    .me1
+{
+    position: absolute;
+    background-color: rgb(19,19,19);
+    float: left;
+    top: 18%;
+    left: 1%;
+    width: 98%;
+    height: 300px;
+    scale: 80%;
+}
+.me1 a{    
+    top:0%;
+    float: top;
+    align-items: top;
+    text-align: top;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 0;
+    animation:slide-fwd-center .6s cubic-bezier(.25,.46,.45,.94) both
+}
+
+
+
+
+
     .main1 img
     {
         width: 100%;
@@ -638,6 +760,8 @@ footer p
 #img13{display: none;}
 #img14{display: none;}
 #img15{display: none;}
+
+
 .li1
 {
 
@@ -670,6 +794,34 @@ footer p
 }
 
 @media (min-width: 2119px){
+
+
+
+    .me1
+{
+    position: absolute;
+    background-color: rgb(19,19,19);
+    float: left;
+    top: 18%;
+    left: 1%;
+    width: 98%;
+    height: 300px;
+    
+}
+.me1 a{    
+    top:0%;
+    float: top;
+    align-items: top;
+    text-align: top;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 0;
+    animation:slide-fwd-center .6s cubic-bezier(.25,.46,.45,.94) both
+}
+
+
+
+
 
     .main1 img
 {
