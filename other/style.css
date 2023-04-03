@@ -525,14 +525,13 @@ footer p
 
 @media (max-width: 1061px){
     .main1 img
-{
-    display: none;
-}
-#back2
-{
-    display: block;
-}
-
+    {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        transition: 1s;
+    }
 
 
     #hid
@@ -600,12 +599,13 @@ footer p
 
     .main1 img
     {
-       display: none;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        transition: 1s;
     }
-    #back2
-{
-    display: block;
-}
+
 
 
     article{
