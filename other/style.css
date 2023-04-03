@@ -1,7 +1,12 @@
+/*BLOCK SCROLL*/
+
+
+
 body
 {
     background-color: rgb(19, 19, 19);
     font-family:sans-serif;
+
 }
 
 nav
@@ -142,6 +147,7 @@ color: rgb(114, 201, 252);
     width: 100%;
     height: 100%;
 }
+
 
 .article1
 {
@@ -598,7 +604,61 @@ footer p
 }
 }
 
+@media (min-width: 2119px){
+    article{
+        all: none;
+        background-color:rgb(173, 36, 36);
+    top: 100%;
+    position: absolute;
+    height: 340%;
+    left: 15%;
+    right: 15%;
+    width: 1800px;
+    box-shadow: 10px 10px 23px 5px rgba(0,0,0,0.25);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+#img1{top: -300px;}
+#img2{}
+#img3{top: -300px;}
+#img4{}
+#img5{top: -300px;}
+#img6{top: -300px;}
+#img7{top: -300px;}
+#img8{top: -300px;}
+#img9{top: -300px;}
+#img10{top: -300px;}
+#img11{top: -300px;}
+#img12{top: -300px;}
+#img13{top: -300px;}
+#img14{top: -300px;}
+#img15{top: -300px;}
 
+.li1
+{
+    top: 0%;
+    height: 100%;
+    left: 5%;
+    width: 45%;
+    font-size: 40px;
+}
+.li2
+{
+    top: 0%;
+    height: 100%;
+    left: 50%;
+    width: 51%;
+    font-size: 40px;
+}
+.me2 ul
+{
+    list-style-type: none;
+    margin-left: 6%;
+    font-weight: 0;
+}
+}
 
   .me1 img:hover {
     box-shadow: 10px 10px 23px 5px rgba(0, 0, 0, 0.466);
