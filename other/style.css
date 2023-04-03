@@ -6,8 +6,14 @@ body
 {
     background-color: rgb(19, 19, 19);
     font-family:sans-serif;
-
+    overflow-y: hidden;
 }
+
+/*.all
+{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}*/
 
 nav
 {   z-index: 1;
@@ -139,14 +145,26 @@ color: rgb(114, 201, 252);
     animation:tracking-in-expand-fwd .8s cubic-bezier(.215,.61,.355,1.000) both;
 }
 
-
-
-
 .main1 img
 {
     width: 100%;
     height: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .article1
