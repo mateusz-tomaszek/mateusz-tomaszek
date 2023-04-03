@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form test</title>
+</head>
+<body>
+    <form method="post">
+        <form>
+            <form>
+                <form action="mailto:mateusz.tomaszek0210@gmail.com?subject=test" method="post"> <!--gdzie wysyłamy formularz-->
+    
+                    <label><input type="text" name="imie" required="required" autofocus="autofocus" placeholder="placeholder"> Imię (type='text')</label> <!--Label po to żeby móc kliknąć na tekst-->
+                    <br>
+                    <label><input type="email" name="email" placeholder="email"> type=email -> wymaga struktury adresu email</label>
+                    <br>
+                    <label><input type="date" name="data" name="trip-start"
+                        
+                        value="2023-02-20" min="2023-01-01" max="2023-03-20"></label> Podaj datę -> type=date
+                        <!-- value -> to co się wyświetli gdy włączymy stronę -->
+    
+                    <br>
+                    <label><input type="password" name="haslo"></label> Pole na hasło -> type=password
+                    <br><br>
+    
+                    
+                    
+                    <label><input name="datalist2" placeholder="uzypełnianie tym co kiedyś wpisaliśmy" size="30"></label> -> pozwalamy na autouzupełnianie tym co już było kiedyś wpisane 
+                    <datalist id="datalist2"></datalist><br> <!--Używając samego pola datalist z ID pozwalamy na autouzypełnianie tym samym co użytkownik już kiedyś wpisał na stronie-->
+                    
+                    <label><input list="datalist" placeholder="datalist"></label> -> pole podpowie to co zakodowaliśmy (WAŻNE - używamy input list="datalist")
+                            <datalist id="datalist">
+                                <option value="Imię"></option>
+                                <option value="Nazwisko"></option>
+                                <option value="Email" label="mail@mail.com"></option> <!--dodając LABEL możemy dać przykład tego co chcemy-->
+                            </datalist>
+    
+                    <br><br>type=radio (dodajemy value='nazwa')
+                    <br><label><input type="radio" name="plec" value="M"></label> Man
+                    <br>
+                    <label><input type="radio" name="plec" value="K"></label> Woman
+                    <br><br>
+    
+                    Wybierz ... (pamiętać dodajemy od nowych linijek 'option value="nazwa" /option' ... sama komenda -> select (pamiętać method='post'))<br>
+                    <select name="jezyk" method="post" placeholder="jezyk">
+                        <option value="Wybierz">Wybierz</option> <!--możemy dodać kolejną opcję, która będzie jako tekst wybierania-->
+                        <option value="polski">polski</option>
+                        <option value="angielski">angielski</option>
+                        <option value="niemiecki">niemiecki</option>
+                    </select>
+                    <br><br>
+    
+                    <input type="checkbox" name="kolor" value="czerwony"> Czerwony (type='checkbox')<br>
+                    <input type="checkbox" name="kolor" value="zolty"> Zółty <br>
+                    <input type="checkbox" name="kolor" value="niebieski"> Niebieski <br><br>
+    
+                    <textarea type="text" name="inne" rows="6" cols="20" placeholder="textarea (rows, cols)"></textarea><br><br>
+    
+                    <input type="file" name="plik" size="30"> -> input type="file" name="plik" size="30" <!--Dołączanie pliku-->
+                    <br><br>
+    
+                    <input type="reset" value="reset"> -> input type="reset" value="reset"
+                    <br><br>
+                    <input type="submit" value="wyslij"> -> input type="submit" value="wyslij
+                    <br><br>
+                    <input type="button" value="Przycisk"> -> input type="button" value="Przycisk"
+                </form>
+            </form>
+        </form>
+    </form>
+</body>
+</html>
