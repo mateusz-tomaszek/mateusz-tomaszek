@@ -165,7 +165,11 @@ color: rgb(114, 201, 252);
     margin: 3px;
     
 }
-
+#hid
+{
+    display: none;
+    font-size: 25px;
+}
 .article2
 {
     background-color: rgb(19, 19, 19);
@@ -268,25 +272,11 @@ footer p
     
 
 }
-.article1 img {
-    --c: rgb(0, 162, 255); /* the border color */
-    --b: 2px;    /* the border thickness*/
-    --g: 3px;     /* the gap on hover */
-    
-    padding: calc(var(--g) + var(--b));
-    --_g: #0000 25%,var(--c) 0;
-    background: 
-      conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
-       var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
-      conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
-       0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
-    transition: .2s, background-position .2s .2s;
-    cursor: pointer;
-  }
-.article1  img:hover {
-    --_i: 100%;
-    transition: .2s, background-size .2s .2s;
-  }
+
+/*.me2 li
+{
+    margin-top: 45px;
+}*/
 
 @keyframes shadow-drop-2-center{0%{transform:translateZ(0);box-shadow:0 0 0 0 transparent}100%{transform:translateZ(50px);box-shadow:0 0 20px 0 rgba(0,0,0,.35)}}
 @keyframes slide-bottom{0%{transform:translateY(0)}100%{transform:translateY(100px)}}
@@ -358,13 +348,16 @@ footer p
 
 
 @media (max-width: 1766px){
-    
+    #hid
+{
+    display: block;
+}
     article{
         
         background-color:rgb(19, 19, 19);
     top: 100%;
     position: absolute;
-    height: 2000px;
+    height: 2100px;
     left: 5%;
     width: 90%;
     box-shadow: 10px 10px 23px 5px rgba(0,0,0,0.25);
@@ -417,12 +410,16 @@ footer p
 
 
 @media (max-width: 1414px){
+    #hid
+{
+    display: block;
+}
     article{
         
         background-color:rgb(19, 19, 19);
     top: 100%;
     position: absolute;
-    height: 3250px;
+    height: 3300px;
     left: 5%;
     width: 90%;
     box-shadow: 10px 10px 23px 5px rgba(0,0,0,0.25);
@@ -478,12 +475,16 @@ footer p
 
 
 @media (max-width: 1061px){
+    #hid
+{
+    display: block;
+}
     article{
-        all: none;
+        
         background-color:rgb(19, 19, 19);
     top: 100%;
     position: absolute;
-    height: 3600px;
+    height: 3650px;
     left: 5%;
     width: 90%;
     box-shadow: 10px 10px 23px 5px rgba(0,0,0,0.25);
@@ -541,7 +542,7 @@ footer p
         background-color:rgb(19, 19, 19);
     top: 100%;
     position: absolute;
-    height: 3900px;
+    height: 4000px;
     left: 5%;
     width: 90%;
     box-shadow: 10px 10px 23px 5px rgba(0,0,0,0.25);
@@ -551,21 +552,21 @@ footer p
     font-weight: bold;
     align-items: center;
 }
-#img1{width: 150px; height: 150px; top: -150px;}
-#img2{width: 150px; height: 300px;}
-#img3{width: 150px; height: 150px; top: -150px; left: 176px;}
-#img4{width: 150px; height: 300px; left: -176px;top: -150px;}
-#img5{width: 150px; height: 150px; top: -300px; left: 0px;}
-#img6{width: 150px; height: 300px;top: -140px; left: 0px;}
-#img7{width: 150px; height: 150px;top: -300px; left: -88px;}
-#img8{width: 150px; height: 300px; display: none;}
-#img9{width: 150px; height: 150px; display: none;}
-#img10{width: 150px; height: 300px; display: none;}
-#img11{width: 150px; height: 150px; display: none;}
-#img12{width: 150px; height: 150px; display: none;}
-#img13{width: 150px; height: 150px; display: none;}
-#img14{width: 150px; height: 150px; display: none;}
-#img15{width: 150px; height: 150px; display: none;}
+#img1{top: 50px;}
+#img2{top: 50px;}
+#img3{top: 50px;left: 0px;}
+#img4{display: none;}
+#img5{top: 50px;}
+#img6{display: none;}
+#img7{display: none;}
+#img8{display: none;}
+#img9{top: 50px}
+#img10{display: none;}
+#img11{top: 50px}
+#img12{top: 50px; left: 0px;}
+#img13{display: none;}
+#img14{display: none;}
+#img15{display: none;}
 .li1
 {
 
@@ -589,6 +590,11 @@ footer p
     list-style-type: none;
     margin-left: -9%;
     font-weight: 0;
+}
+#hid
+{
+    display: block;
+    font-size: 21px;
 }
 }
 
