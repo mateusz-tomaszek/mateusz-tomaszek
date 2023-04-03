@@ -7,6 +7,7 @@ body
     background-color: rgb(19, 19, 19);
     font-family:sans-serif;
     overflow-y: scroll;
+    
 }
 
 /*.all
@@ -145,14 +146,8 @@ color: rgb(114, 201, 252);
     animation:tracking-in-expand-fwd .8s cubic-bezier(.215,.61,.355,1.000) both;
 }
 
-.main1 img
-{
-    width: 100%;
-    height: 100%;
-}
 
-
-
+  
 
 
 
@@ -297,6 +292,10 @@ footer p
 
 }
 
+#back2
+{
+    display: none;
+}
 /*.me2 li
 {
     margin-top: 45px;
@@ -368,10 +367,26 @@ footer p
     margin-left: 6%;
     font-weight: 0;
 }
+.main1 img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 1s;
+}
 }
 
 
 @media (max-width: 1766px){
+    .main1 img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    transition: 1s;
+}
     #hid
 {
     display: block;
@@ -434,6 +449,16 @@ footer p
 
 
 @media (max-width: 1414px){
+    .main1 img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 1s;
+}
+
+
     #hid
 {
     display: block;
@@ -499,6 +524,17 @@ footer p
 
 
 @media (max-width: 1061px){
+    .main1 img
+{
+    display: none;
+}
+#back2
+{
+    display: block;
+}
+
+
+
     #hid
 {
     display: block;
@@ -561,6 +597,17 @@ footer p
 
 
 @media (max-width: 709px){
+
+    .main1 img
+    {
+       display: none;
+    }
+    #back2
+{
+    display: block;
+}
+
+
     article{
         all: none;
         background-color:rgb(19, 19, 19);
@@ -623,6 +670,17 @@ footer p
 }
 
 @media (min-width: 2119px){
+
+    .main1 img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 1s;
+}
+
+
     article{
         all: none;
         background-color:rgb(173, 36, 36);
