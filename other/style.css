@@ -59,14 +59,14 @@ nav
     align-items: center;
     height: 80%;
     font-weight: bold;
-    color: rgb(0, 162, 255);
+    color: rgb(255, 255, 255); /*rgb(0, 162, 255);*/
     left: 15px;
     
     
 }
 .nav1 a[href="https://mateusztomaszek.com.pl/"]:hover
 {
-color: rgb(114, 201, 252);
+color: rgb(160, 0, 0);
 }
 
 
