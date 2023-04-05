@@ -2,6 +2,17 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 body
 {
     background-color: rgb(19, 19, 19);
@@ -49,7 +60,7 @@ nav
     height: 80%;
     font-weight: bold;
     color: rgb(0, 162, 255);
-    left: 5px;
+    left: 15px;
     
     
 }
@@ -58,95 +69,6 @@ nav
 color: rgb(114, 201, 252);
 }
 
-.menu1
-{
-    
-    position: absolute;
-    float: left;
-    top:0%;
-    align-items: center;
-    right: 0%;
-    height: 51px;
-    width: 50px;
-    display: flex;
-    flex-direction: row;
-}
-.hover_menu
-{
-    align-items: center;
-    display: none;
-    
-}
-.menu1:hover .hover_menu
-{
-    display: inline;
-    position: absolute;
-    left: 0%;
-    top: 11%;
-}
-
-.menu1 a
-{
-    margin: 0 1rem;
-    text-decoration: none;
-    padding: 1rem .5rem;
-}
-.dropdown
-{
-    position: relative;
-}
-
-.dropdown ul
-{
-    
-    width: 200px;
-    text-align: center;
-    position: absolute;
-    float: left;
-    right: 0%;
-    top: 10px;
-    color:white;
-    padding: 0;
-    list-style-type: none;
-    background-color: rgba(10, 10, 10, 0.705);
-    box-shadow: 10px 10px 23px 5px rgba(0,0,0,0.25);
-    border-radius: 7px;
-    width: 200px;
-    display: none;
-} 
-.dropdown ul li a
-{
-    color: rgb(0, 162, 255);
-    font-size: 20px;
-    font-weight: bold;
-    width: 100%;
-    height: 100%;
-    display: inline-block;
-    padding: 0;
-    margin: 0;
-
-    
-}
-
-
-.dropdown ul li
-{
-    padding: .5rem;
-}
-.dropdown ul li:hover
-{
-    background-color:rgb(42, 53, 61);
-    border-radius: 7px;
-    
-    
-}
-.menu1:hover .dropdown ul,
-.dropdown ul:hover
-{
-    display: block;
-    animation:shadow-drop-2-center .4s cubic-bezier(.25,.46,.45,.94) both;
-    animation:tracking-in-expand-fwd .8s cubic-bezier(.215,.61,.355,1.000) both;
-}
 
 
   
@@ -299,6 +221,63 @@ footer p
 @media (min-width: 1767px){
 
 
+
+/*-------------------------------------------------------------------*/
+.dropdown
+{
+    display: none;
+}
+.menu1
+{
+    display: none;
+}
+
+
+/*-------------------------------------------------------------------*/
+        .fullnav
+        {
+            position: absolute;
+            background-color: rgb(19, 19, 19);
+            height: 100%;
+            float: right;
+            right: 15px;
+            
+        }
+        .fullnav li:hover
+        {
+            background-color: rgb(35, 35, 35);
+            font-weight: 400;
+        }
+
+        .fullnav a
+        {
+            text-decoration: none;
+            list-style-type: none;
+            color: white;
+            display: block;
+            text-align: center;
+            padding: 16px;
+        }
+        .fullnav ul
+        {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style-type: none;
+        }
+        .fullnav ul li
+        {
+            float: left;
+            padding: 15;
+        }
+/*-------------------------------------------------------------------*/
+/*-------------------------------------------------------------------*/
+
+
+
+
+
+
     .me1
 {
     position: absolute;
@@ -391,6 +370,61 @@ footer p
 
 
 @media (max-width: 1766px){
+
+    
+
+
+/*-------------------------------------------------------------------*/
+.dropdown
+{
+    display: none;
+}
+.menu1
+{
+    display: none;
+}
+
+
+/*-------------------------------------------------------------------*/
+        .fullnav
+        {
+            position: absolute;
+            background-color: rgb(19, 19, 19);
+            height: 100%;
+            float: right;
+            right: 15px;
+            
+        }
+        .fullnav li:hover
+        {
+            background-color: rgb(35, 35, 35);
+            font-weight: 400;
+        }
+
+        .fullnav a
+        {
+            text-decoration: none;
+            list-style-type: none;
+            color: white;
+            display: block;
+            text-align: center;
+            padding: 16px;
+        }
+        .fullnav ul
+        {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style-type: none;
+        }
+        .fullnav ul li
+        {
+            float: left;
+            padding: 15;
+        }
+/*-------------------------------------------------------------------*/
+/*-------------------------------------------------------------------*/
+
 
 
 
@@ -493,6 +527,62 @@ footer p
 
 
 @media (max-width: 1414px){
+
+
+    
+
+/*-------------------------------------------------------------------*/
+.dropdown
+{
+    display: none;
+}
+.menu1
+{
+    display: none;
+}
+
+
+/*-------------------------------------------------------------------*/
+        .fullnav
+        {
+            position: absolute;
+            background-color: rgb(19, 19, 19);
+            height: 100%;
+            float: right;
+            right: 15px;
+            
+        }
+        .fullnav li:hover
+        {
+            background-color: rgb(35, 35, 35);
+            font-weight: 400;
+        }
+
+        .fullnav a
+        {
+            text-decoration: none;
+            list-style-type: none;
+            color: white;
+            display: block;
+            text-align: center;
+            padding: 16px;
+        }
+        .fullnav ul
+        {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style-type: none;
+        }
+        .fullnav ul li
+        {
+            float: left;
+            padding: 15;
+        }
+/*-------------------------------------------------------------------*/
+/*-------------------------------------------------------------------*/
+
+
 
 
     .me1
@@ -598,6 +688,64 @@ footer p
 
 @media (max-width: 1061px){
 
+
+
+
+    
+
+/*-------------------------------------------------------------------*/
+.dropdown
+{
+    display: none;
+}
+.menu1
+{
+    display: none;
+}
+
+
+/*-------------------------------------------------------------------*/
+        .fullnav
+        {
+            position: absolute;
+            background-color: rgb(19, 19, 19);
+            height: 100%;
+            float: right;
+            right: 15px;
+            
+        }
+        .fullnav li:hover
+        {
+            background-color: rgb(35, 35, 35);
+            font-weight: 400;
+        }
+
+        .fullnav a
+        {
+            text-decoration: none;
+            list-style-type: none;
+            color: white;
+            display: block;
+            text-align: center;
+            padding: 16px;
+        }
+        .fullnav ul
+        {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style-type: none;
+        }
+        .fullnav ul li
+        {
+            float: left;
+            padding: 15;
+        }
+/*-------------------------------------------------------------------*/
+/*-------------------------------------------------------------------*/
+
+
+
     .me1
 {
     position: absolute;
@@ -696,6 +844,114 @@ footer p
 
 
 @media (max-width: 709px){
+
+
+
+    
+
+/*-------------------------------------------------------------------*/
+.menu1:hover .dropdown ul,
+.dropdown ul:hover
+{
+    display: block;
+    animation:shadow-drop-2-center .4s cubic-bezier(.25,.46,.45,.94) both;
+    animation:tracking-in-expand-fwd .8s cubic-bezier(.215,.61,.355,1.000) both;
+}
+.menu1
+{
+    position: absolute;
+    float: left;
+    top:0%;
+    align-items: center;
+    right: 0%;
+    height: 51px;
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.hover_menu
+{
+
+    align-items: center;
+    display: none;
+    
+}
+.menu1:hover .hover_menu
+{
+    display: inline;
+    position: absolute;
+    left: 0%;
+    top: 11%;
+}
+
+.menu1 a
+{
+    margin: 0 1rem;
+    text-decoration: none;
+    padding: 1rem .5rem;
+}
+.dropdown
+{
+    display: block;
+    position: relative;
+}
+
+.dropdown ul
+{
+    
+    width: 200px;
+    text-align: center;
+    position: absolute;
+    float: left;
+    right: 0%;
+    top: 10px;
+    color:white;
+    padding: 0;
+    list-style-type: none;
+    background-color: rgba(10, 10, 10, 0.705);
+    box-shadow: 10px 10px 23px 5px rgba(0,0,0,0.25);
+    border-radius: 7px;
+    width: 200px;
+    display: none;
+} 
+.dropdown ul li a
+{
+    color: rgb(0, 162, 255);
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+
+    
+}
+
+
+.dropdown ul li
+{
+    padding: .5rem;
+}
+.dropdown ul li:hover
+{
+    background-color:rgb(42, 53, 61);
+    border-radius: 7px;
+    
+    
+}
+
+
+
+/*-------------------------------------------------------------------*/
+        .fullnav
+        {
+            display: none;
+        }
+/*-------------------------------------------------------------------*/
+/*-------------------------------------------------------------------*/
+
+
 
     .me1
 {
