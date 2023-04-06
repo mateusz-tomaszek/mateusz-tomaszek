@@ -1,0 +1,38 @@
+body{    background-color: rgb(19, 19, 19);font-family:sans-serif;overflow-x: hidden;height: 100%;overflow-y: hidden}
+
+
+
+.bg img
+{   
+    left:0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 1s;
+    scale: 110%;
+}
+
+
+
+.bg2
+{
+    position: absolute;
+    float: left;
+    left: 20%;
+    width: 60%;
+    top: 10%;
+    height: 80%;
+
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 20px;
+        border:1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        text-align: center;
+        color: white;
+        text-shadow: 4px 4px #6e6e6e;
+        font-size: 30px;
+}
