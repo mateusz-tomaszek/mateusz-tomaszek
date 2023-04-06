@@ -1,9 +1,24 @@
 /*BLOCK SCROLL*/
 
-
-
-
-
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #131313;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #404040;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #606060;
+  }
 
 
 

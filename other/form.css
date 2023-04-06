@@ -1,29 +1,34 @@
-body{    background-color: rgb(19, 19, 19);font-family:sans-serif;overflow-x: hidden;height: 100%;overflow-y: hidden}
+body{   
+  overflow: hidden;
+  font-family:sans-serif;
+}
 
-
+.bg
+{
+    background-color: #131313;
+    font-size: 40px;
+    color:white;
+    position: fixed;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
 
 .bg img
 {   
-    left:0%;
-    top: 0%;
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
     transition: 1s;
-    scale: 110%;
 }
 
 
 
 .bg2
 {
-    position: absolute;
-    float: left;
-    left: 20%;
-    width: 60%;
-    top: 10%;
-    height: 80%;
+
 
         background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
         backdrop-filter: blur(10px);
@@ -36,3 +41,45 @@ body{    background-color: rgb(19, 19, 19);font-family:sans-serif;overflow-x: hi
         text-shadow: 4px 4px #6e6e6e;
         font-size: 30px;
 }
+
+
+
+@media (min-width: 800px){        /*=-=-=-=-=-=-=-=-=-=   INNE   =-=-=-=-=-=-=-=-=-=*/
+
+    .bg2
+    {
+        position: absolute;
+        float: left;
+        left: 20%;
+        width: 60%;
+        top: 10%;
+        height: 80%;
+    }
+
+
+}
+
+/*=-=-=-=-=-=-=-=-=-=*//*=-=-=-=-=-=-=-=-=-=*//*=-=-=-=-=-=-=-=-=-=*/
+/*=-=-=-=-=-=-=-=-=-=*//*=-=-=-=-=-=-=-=-=-=*//*=-=-=-=-=-=-=-=-=-=*/
+/*=-=-=-=-=-=-=-=-=-=*//*=-=-=-=-=-=-=-=-=-=*//*=-=-=-=-=-=-=-=-=-=*/
+/*=-=-=-=-=-=-=-=-=-=*//*=-=-=-=-=-=-=-=-=-=*//*=-=-=-=-=-=-=-=-=-=*/
+/*=-=-=-=-=-=-=-=-=-=*//*=-=-=-=-=-=-=-=-=-=*//*=-=-=-=-=-=-=-=-=-=*/
+
+
+@media (max-width: 800px){        /*=-=-=-=-=-=-=-=-=-=   TELEFON   =-=-=-=-=-=-=-=-=-=*/
+
+.bg2
+{
+    position: absolute;
+    float: left;
+    left: 5%;
+    width: 90%;
+    top: 10%;
+    height: 80%;
+}
+
+
+
+}
+
+
