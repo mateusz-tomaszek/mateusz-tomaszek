@@ -49,6 +49,20 @@
             } // End if
           });
         });
+
+
+                $('#gallery').hover(function(){
+                $(this).find('img').fadeTo(500, 0.5);
+            }, function(){
+                $(this).find('img').fadeTo(500, 1);
+            });
+
+        $('#img1').click(function() {
+                $('#gallery').find('img').fadeTo(0, 1);
+                $("#img1").stop().animate({width: 800, height: 533}, 200 );
+                }).mouseout(function(){
+                $("#img1").stop().animate({width: 280, height: 187}, 200 );
+            });
         </script>
 
     <nav>
