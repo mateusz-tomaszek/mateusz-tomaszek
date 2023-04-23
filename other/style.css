@@ -223,7 +223,7 @@ footer p
 
 .article1 img:hover
 {
-    filter: brightness(130%);
+    filter: brightness(100%);
     transition: 300ms;
 
 }
@@ -231,7 +231,7 @@ footer p
 .article1 img:not(:hover)
 {
 
-    filter: brightness(100%);
+    filter: brightness(75%);
     transition: 300ms;
     border-radius: 15px;
 }
