@@ -221,20 +221,6 @@ footer p
 }*/
 
 
-.article1 img:hover
-{
-    filter: brightness(100%);
-    transition: 300ms;
-
-}
-
-.article1 img:not(:hover)
-{
-
-    filter: brightness(75%);
-    transition: 300ms;
-    border-radius: 15px;
-}
 
 
 
@@ -254,6 +240,21 @@ footer p
 /*----------------------------------------------------------------*/
 
 @media (min-width: 1767px){
+
+    .article1 img:hover
+{
+    filter: brightness(100%);
+    transition: 300ms;
+
+}
+
+.article1 img:not(:hover)
+{
+
+    filter: brightness(75%);
+    transition: 300ms;
+    border-radius: 15px;
+}
 
 
 
@@ -407,7 +408,21 @@ footer p
 @media (max-width: 1766px){
 
     
-
+    .article1 img:hover
+    {
+        filter: brightness(100%);
+        transition: 300ms;
+    
+    }
+    
+    .article1 img:not(:hover)
+    {
+    
+        filter: brightness(100%);
+        transition: 300ms;
+        border-radius: 15px;
+    }
+    
 
 /*-------------------------------------------------------------------*/
 .dropdown
@@ -563,7 +578,21 @@ footer p
 
 @media (max-width: 1414px){
 
-
+    .article1 img:hover
+    {
+        filter: brightness(100%);
+        transition: 300ms;
+    
+    }
+    
+    .article1 img:not(:hover)
+    {
+    
+        filter: brightness(100%);
+        transition: 300ms;
+        border-radius: 15px;
+    }
+    
     
 
 /*-------------------------------------------------------------------*/
@@ -724,7 +753,21 @@ footer p
 @media (max-width: 1061px){
 
 
-
+    .article1 img:hover
+    {
+        filter: brightness(100%);
+        transition: 300ms;
+    
+    }
+    
+    .article1 img:not(:hover)
+    {
+    
+        filter: brightness(100%);
+        transition: 300ms;
+        border-radius: 15px;
+    }
+    
 
     
 
@@ -880,7 +923,21 @@ footer p
 
 @media (max-width: 709px){
 
-
+    .article1 img:hover
+    {
+        filter: brightness(100%);
+        transition: 300ms;
+    
+    }
+    
+    .article1 img:not(:hover)
+    {
+    
+        filter: brightness(100%);
+        transition: 300ms;
+        border-radius: 15px;
+    }
+    
 
     
 
@@ -1090,7 +1147,21 @@ footer p
 
 @media (min-width: 2119px){
 
-
+    .article1 img:hover
+    {
+        filter: brightness(100%);
+        transition: 300ms;
+    
+    }
+    
+    .article1 img:not(:hover)
+    {
+    
+        filter: brightness(75%);
+        transition: 300ms;
+        border-radius: 15px;
+    }
+    
 
     .me1
 {
