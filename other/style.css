@@ -1131,9 +1131,9 @@ footer p
 #img10{display: none;}
 #img11{top: 50px}
 #img12{top: 50px; left: 0px;}
-#img13{display: block; top: 50px; left: 114px;}
-#img14{display: block; top: 60px; left: 114px;}
-#img15{display: block; top: 70px; left: 114px;}
+#img13{display: inline; top: 50px; left: 0px;}
+#img14{display: inline; top: 50px; left: 0px;}
+#img15{display: inline; top: 50px; left: 0px;}
 
 
 .li1
