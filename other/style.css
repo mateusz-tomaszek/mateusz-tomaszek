@@ -1109,7 +1109,7 @@ footer p
         background-color:rgb(19, 19, 19);
     top: 100%;
     position: absolute;
-    height: 6500px;
+    height: 7700px;
     left: 5%;
     width: 90%;
     box-shadow: 10px 10px 23px 5px rgba(0,0,0,0.25);
@@ -1122,13 +1122,13 @@ footer p
 #img1{top: 50px;}
 #img2{top: 50px;}
 #img3{top: 50px;left: 0px;}
-#img4{display: none;}
+#img4{display: inline; top: 50px; left: 0px;}
 #img5{top: 50px;}
 #img6{top: 50px;left: 0px;}
 #img7{top: 50px; left: 0px;}
 #img8{top: 50px; left: 0px;}
 #img9{top: 50px}
-#img10{display: none;}
+#img10{display: inline; top: 50px; left: 0px;}
 #img11{top: 50px}
 #img12{top: 50px; left: 0px;}
 #img13{display: inline; top: 50px; left: 0px;}
