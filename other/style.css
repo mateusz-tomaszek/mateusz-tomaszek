@@ -1109,7 +1109,7 @@ footer p
         background-color:rgb(19, 19, 19);
     top: 100%;
     position: absolute;
-    height: 7700px;
+    height: 7660px;
     left: 5%;
     width: 90%;
     box-shadow: 10px 10px 23px 5px rgba(0,0,0,0.25);
@@ -1162,7 +1162,7 @@ footer p
 }
 #hid
 {
-    display: block;
+    display: none;
     font-size: 21px;
 }
 }

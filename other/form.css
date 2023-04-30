@@ -110,23 +110,26 @@ h1
     #wyslij input
     {
         width: 100%;
-        background-color: #5134f3;
+        background-color: #131313;
         font-weight: bold;
         color: white;
     }
     
     input
     {
-        border: 2px solid #131313;
+        border: 2px solid #9e9e9e;
         border-radius: 7px;
         width: 70%;
         font-size: 17px;
         padding: 10px;
+        background-color: #191919;
+        color: white;
     
     }
     
     textarea
     {
+        background-color: #191919;
         position: absolute;
         margin-top: 10px;
         position: absolute;
@@ -136,12 +139,13 @@ h1
         height: 80%;
         box-sizing: border-box;
         resize:none;
-        border: 2px solid #131313;
+        border: 2px solid #9e9e9e;
         border-radius: 7px;
         width: 70%;
         font-size: 17px;
         padding: 10px;
         width: 100%;
+        color: white;
     }
 
 }
@@ -226,18 +230,20 @@ h1
 #wyslij input
 {
     width: 100%;
-    background-color: #5134f3;
+    background-color: #191919;
     font-weight: bold;
     color: white;
 }
 
 input
 {
-    border: 2px solid #131313;
+    border: 2px solid #9e9e9e;
     border-radius: 7px;
     width: 70%;
     font-size: 17px;
     padding: 5px;
+    background-color: #191919;
+    color: white;
 
 }
 
@@ -252,12 +258,14 @@ textarea
     height: 70%;
     box-sizing: border-box;
     resize:none;
-    border: 2px solid #131313;
+    border: 2px solid #9e9e9e;
     border-radius: 7px;
     width: 70%;
     font-size: 17px;
     padding: 10px;
     width: 100%;
+    background-color: #191919;
+    color: white;
 }
 }
 
@@ -269,6 +277,6 @@ textarea:hover,
 input:hover,
 input:focus
 {
-    border: 5px solid #0066ff;
+    border: 5px solid #c5c5c5;
     border-radius: 10px;
 }
