@@ -32,7 +32,7 @@ body{
     text-align: center;
     display: none;
     justify-content: center;
-    padding-top: 50%;
+    padding-top: 50px;
     align-items: center;
     background-color: rgba(22, 22, 22, 0.911);
   }
