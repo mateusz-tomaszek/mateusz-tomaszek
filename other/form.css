@@ -81,7 +81,7 @@ body{
 
 
 
-@media (min-width: 872px){        /*=-=-=-=-=-=-=-=-=-=   INNE   =-=-=-=-=-=-=-=-=-=*/
+@media (min-width: 1000px){        /*=-=-=-=-=-=-=-=-=-=   INNE   =-=-=-=-=-=-=-=-=-=*/
 
     .bg2
     {
@@ -196,7 +196,7 @@ h1
 /*=-=-=-=-=-=-=-=-=-=*//*=-=-=-=-=-=-=-=-=-=*//*=-=-=-=-=-=-=-=-=-=*/
 
 
-@media (max-width: 872px){        /*=-=-=-=-=-=-=-=-=-=   TELEFON   =-=-=-=-=-=-=-=-=-=*/
+@media (max-width: 1000px){        /*=-=-=-=-=-=-=-=-=-=   TELEFON   =-=-=-=-=-=-=-=-=-=*/
 
 .bg2
 {
@@ -307,6 +307,124 @@ textarea
     color: white;
 }
 }
+@media (max-height: 860px){        /*=-=-=-=-=-=-=-=-=-=   TELEFON   =-=-=-=-=-=-=-=-=-=*/
+
+    .bg2
+    {
+        position: absolute;
+        float: left;
+        left: 5%;
+        width: 90%;
+        top: 5%;
+        height: 90%;
+    }
+    
+    
+    
+    
+    form
+    {
+        position: absolute;
+        top: 90px;
+        bottom: 5%;
+        left: 1%;
+        right: 1%;
+        font-size: 25px;
+        text-shadow: 3px 3px #131313;
+        
+    }
+    h1
+    {        
+        text-align: center;
+        color: white;
+        text-shadow: 4px 4px #131313;
+        font-size: 40px;
+    }
+    #fullname
+    {
+    
+        position: absolute;
+        left: 0%;
+        width: 100%;
+        height: 80px;
+    }
+    #emailaddress
+    {
+    
+        position: absolute;
+        top: 80px;
+        left: 0%;
+        width: 100%;
+        height: 80px;
+    }
+    #message1
+    {
+    
+        position: absolute;
+        top: 160px;
+        width: 100%;
+        height: 70%;
+    }
+    
+    #wyslij
+    {
+        position: absolute;
+        float: bottom;
+        top: 95%;
+        bottom: 0%;
+        left: 30%;
+        height: 20%;
+        width: 40%;
+    
+    }
+    #wyslij input
+    {
+        width: 100%;
+        background-color: #191919;
+        font-weight: bold;
+        color: white;
+    }
+    
+    input
+    {
+        border: 2px solid #9e9e9e;
+        border-radius: 7px;
+        width: 70%;
+        font-size: 17px;
+        padding: 5px;
+        background-color: #191919;
+        color: white;
+    
+    }
+    
+    textarea
+    {
+        position: absolute;
+        margin-top: 10px;
+        position: absolute;
+        float: left;
+        left: 0%;
+        width:100%;
+        height: 70%;
+        box-sizing: border-box;
+        resize:none;
+        border: 2px solid #9e9e9e;
+        border-radius: 7px;
+        width: 70%;
+        font-size: 17px;
+        padding: 10px;
+        width: 100%;
+        background-color: #191919;
+        color: white;
+    }
+    }
+
+
+
+
+
+
+
 
 
 
