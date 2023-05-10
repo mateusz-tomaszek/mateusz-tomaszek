@@ -3,192 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <link rel="shortcut icon" href="other/img/logo.png" type="image/x-icon">
-    <link rel="icon" href="other/img/logo.png">
-    <meta name="description" content="Mateusz Tomaszek. My portfolio, contact to me and more!">
-    <meta name="keywords" content="mateusz tomaszek, fotografia, samochody, cars, photo">
-    <meta name="author" content="mateusz tomaszek">
-    <meta name="acopyright" content="mateusz tomaszek">
-    <meta name="robots" content="index">
-    <title>Mateusz Tomaszek</title>
-    <link rel="stylesheet" href="other/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Witryny</title>
 </head>
 <body>
-    <div class="all">
-
-
-
-    <script
-  src="https://code.jquery.com/jquery-3.6.4.js"></script>
-    <script>
-        $(document).ready(function(){
-          // Add smooth scrolling to all links
-          $("a").on('click', function(event) {
+    <style>
+        body {font-size: 20px; padding: 10px; font-family: arial; background-color: #191919; color: white;}
         
-            // Make sure this.hash has a value before overriding default behavior
-            if (this.hash !== "") {
-              // Prevent default anchor click behavior
-              event.preventDefault();
-        
-              // Store hash
-              var hash = this.hash;
-        
-              // Using jQuery's animate() method to add smooth page scroll
-              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-              $('html, body').animate({
-                scrollTop: $(hash).offset().top
-              }, 800, function(){
-        
-                // Add hash (#) to URL when done scrolling (default click behavior)
-                window.location.hash = hash;
-              });
-            } // End if
-          });
-        });
+    </style>
 
 
-                $('#gallery').hover(function(){
-                $(this).find('img').fadeTo(500, 0.5);
-            }, function(){
-                $(this).find('img').fadeTo(500, 1);
-            });
+    - (em) <em>kursywa</em>
+    <br>
+    - (strong) <strong>pogrubienie</strong>
+    <br>
+    - (cite) <cite>cytowanie</cite>
+    <br>
+    - (q) <q>cudzysłów</q>
+    <br>
+    - (dfn) <dfn>definicja</dfn>
+    <br>
+    - (abbr) <abbr>skróty</abbr>
+    <br>
+    - (time) <time>czas</time>
+    <br>
+    - (code) <code>fragment kodu</code>
+    <br>
+    - (var) <var>zmienna w programie</var>
+    <br>
+    - (samp) <samp>wynik działania programu</samp>
+    <br>
+    - (kbd) <kbd>wprowadzanie z klawiatury</kbd> <!--  np.   <kbd> F5 </kbd> -->
+    <br><br>
+    - (sup) index  <sup>górny</sup>
+    <br>
+    - (sub) index  <sub>dolny</sub>
+    <br><br>
+    - (i) <i>kursywa</i>
+    <br>
+    - (b) <b>pogrubienie</b>
+    <br>
+    - (mark) <mark>zakreślenie</mark>
+    <br>
+    - (ruby) <ruby>uwaga</ruby>
+    <br>
+    - (rt) <rt>komentarz do ' ruby '</rt>
+    <br>
+    - (span) <span style="color:red">kawałek tekstu ze zmienionym stylem</span>
+    <br>
+    <br>
+    <hr>
+    <br>
+    - (br /) wymuszenie załamania tekstu
+    <br>
+    - (wbr /) możliwość załamania tekstu
+    <br><br>
+    - (ins) <ins>element dodany do strony</ins> (podreśla automatycznie)
+    <br>
+    - (del) <del>element usunięty ze strony</del> (skreśla automtycznie)
+    <br>
+    <br>
+    <hr>
+    <br>
+    <h3>Elementy osadzone:</h3>
+    <pre>
+        - OBRAZ (img src="zdj.jpg" alt="alternatywa" width="10" height="10")
+        - FILM (width, height, controls="controls"-> pasek przewijania, autoplay="autoplay", preload, loop)
+        - AUDIO (to co do filmu)
+        - AIMACJE FLASH (embed)
+        - JS OSADZONE (object type="application/x-java-applet", height, weight)(object/)
+        - MOŻNA DODAĆ (parm) ^^^
 
-        $('#img1').click(function() {
-                $('#gallery').find('img').fadeTo(0, 1);
-                $("#img1").stop().animate({width: 800, height: 533}, 200 );
-                }).mouseout(function(){
-                $("#img1").stop().animate({width: 280, height: 187}, 200 );
-            });
-        </script>
-    <nav>
+        - RAMKI PŁYWAJĄCE (iframe src="", sameless, height, weight, name, srcdoc -> piaskownica) 
+                > piaskownica (sandbox ='allow-top-navigation', allow-forms, allow-scripts, allow-same-origin)
 
-        <div class="nav1">
-            <a href="https://mateusztomaszek.com.pl/">Mateusz Tomaszek</a>
-        </div>
-        <div class="fullnav">
+        - CANVAS -> wyświetla grafikę na stronie
+    </pre>
+    <br>
+    <hr>
+    <br>
+    - (a) <a href="#">hiperłącza</a> -> można do ' href ' dodać (obraz, dokument, url, ftp)
+    <br><br>
+    - (map)
+    <pre>
+        (map name="MUSI BYĆ")
+            (area /) -> atrubuty: href, coords, shape (circle / rect), title (coś jak ALT w zdj)
+        (/map)
+    </pre>
+    - kotwice
+    <pre>
+        aby się udało trzeba
+        1. zrobić np. div name="test"
+        2. zrobić hiperłączę do tego tekstu (a href="#test")
 
-            <ul>
-                <li><a href="https://mateusztomaszek.com.pl">Home</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            
-        </div>
-                    <div class="menu1">
-                        <img src="other/site_img/menu1.jpg" height="40px" width="40px">
-                        <img src="other/site_img/menu2.jpg" class="hover_menu" height="40px" width="40px">
-
-                        <div class="dropdown"> 
-                            <ul>
-                                <li><a href="https://mateusztomaszek.com.pl">Home</a></li>
-                                <li><a href="#gallery">Gallery</a></li>
-                                <li><a href="#about">About Me</a></li>
-                                <li><a href="#contact">Contact</a></li>
-                            </ul>
-                        </div>
-                     </div>
-
-    </nav>
-    <div class="main1">
-       <!-- <h1>Site<wbr/> In<wbr/> Progress</h1>-->
-        <img id="back1" src="other/site_img/back1.jpg">
-        <img id="back2"  src="other/site_img/back2.jpg">
-        
-    </div>
-
-        <article>
-            <div class="arr">
-                <a href="#gallery"><img id="img1" src="other/site_img/arrow.png" width="150px" height="150px" alt=""></a>
-            </div>
-
-                <section class="article1" id="gallery">
-                    <p>Gallery</p>
-                    <p id="hid">&#128160 All photos on fullscreen! &#128160</p>
-                    <img id="img1" src="other/img/1.jpg" width="300px" height="300px" alt="1">
-                    <img id="img2" src="other/img/2.jpg" width="300px" height="600px" alt="2">
-                    <img id="img3" src="other/img/3.jpg" width="300px" height="300px" alt="3">
-                    <img id="img4" src="other/img/4.jpg" width="300px" height="600px" alt="4">
-                    <img id="img5" src="other/img/5.jpg" width="300px" height="300px" alt="5">
-                    <img id="img6" src="other/img/6.jpg" width="300px" height="600px" alt="6">
-                    <img id="img7" src="other/img/7.jpg" width="300px" height="300px" alt="7">
-                    <img id="img8" src="other/img/8.jpg" width="300px" height="600px" alt="8">
-                    <img id="img9" src="other/img/9.jpg" width="300px" height="300px" alt="9">
-                    <img id="img10" src="other/img/10.jpg" width="300px" height="600px" alt="10">
-                    <img id="img11" src="other/img/11.jpg" width="300px" height="300px" alt="11">
-                    <img id="img12" src="other/img/12.jpg" width="300px" height="300px" alt="12">
-                    <img id="img13" src="other/img/13.jpg" width="300px" height="300px" alt="13">
-                    <img id="img14" src="other/img/14.jpg" width="300px" height="300px" alt="14">
-                    <img id="img15" src="other/img/15.jpg" width="300px" height="300px" alt="15">
-                    <img id="img16" src="other/img/16.jpg" width="300px" height="300px" alt="16">
-                    <img id="img17" src="other/img/17.jpg" width="300px" height="300px" alt="17">
-                    <img id="img18" src="other/img/18.jpg" width="300px" height="300px" alt="18">
-                    <img id="img19" src="other/img/19.jpg" width="300px" height="300px" alt="19">
-                    <img id="img20" src="other/img/20.jpg" width="300px" height="300px" alt="20">
-
-                    
-                    
-                </section>
-
-
-
-                <section class="article2" id="about">
-                    <p>About Me</p>
-                        <div class="me1">
-                            <a href="https://www.facebook.com/mateusz.tomaszek.21/" id="fb"><img src="other/site_img/fb.jpg" width="90px" height="90px"></a>
-                            <a href="https://www.instagram.com/mateusz_tomaszek_" id="ig"><img src="other/site_img/ig.jpg" width="90px" height="90px"></a>
-                            <a href="https://www.snapchat.com/add/tomaszekmateusz?share_id=66ODp06MvVA&locale=pl-PL" id="sc"><img src="other/site_img/sc.jpg" width="90px" height="90px"></a>
-                        </div>
-                        <div class="me2"><wbr>
-                            <div class="li1">
-
-                                <ul>
-                                    <li>&#128247 Photographer</li>
-                                    <li>&#128204 Gliwice, PL</li>
-                                    <li>&#11088 Dream Car: Corvette C8</li>
-                                    <li>&#128663 My Car: BMW e87</li>
-                                </ul>
-                                    
-                            </div>
-
-                            <div class="li2">
-
-                                    <ul>
-                                        <li>&#128160 Sony DSLR-A500</li>
-                                        <li>&#128160 Sony DT f1.8/50mm SAM</li>
-                                        <li>&#128160 Sony DT f3.5-5.6/18-55mm SAM II</li>
-                                        <li>&#128160 Sigma f4-5.6/70-300mm</li>
-                                    </ul>
-
-                            </div>
-
-                        </div>
-                </section>
-                <section class="article3" id="contact">
-                    <p style="font-size: 45px; margin-bottom: -20px;">Want Photos?<p>
-                    <p>Contact</p>
-
-                            <button id="dm">
-                                <a href="https://www.instagram.com/mateusz_tomaszek_">DM on Instagram</a>
-                                <span></span><span></span><span></span><span></span>
-                            </button>
-                            <button id="dm">
-                                <a href="https://mateusztomaszek.com.pl/form.html" target=”_blank”>DM with Email</a>
-                                <span></span><span></span><span></span><span></span>
-                            </button>
-                            
-
-                    <footer>
-                        <p>© Copyright 2023 Mateusz Tomaszek. All Rights Reserved.</p>
-                    </footer>
-                </section>
-                
-        </article>
-    </div>
+        WAŻNE musi być " # ", bo to ID
+    </pre>
 </body>
 </html>
