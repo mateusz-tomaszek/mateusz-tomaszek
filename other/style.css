@@ -1,3 +1,16 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*BLOCK SCROLL*/
 
 /* width */
@@ -1357,3 +1370,36 @@ footer p
 	text-decoration:none;
 	text-shadow:0px 1px 0px #131313;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+#fade-text {
+    margin-top: 50px;
+    position: absolute;
+    font-size: 60px;
+    font-family: impact;
+    opacity: 1;
+    transition: opacity 0.1s ease;
+    text-align: center;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    text-shadow:1px 5px 1px #131313;
+  
+}
+#fade-text a {
+text-decoration: none;
+color: white;
+}
+

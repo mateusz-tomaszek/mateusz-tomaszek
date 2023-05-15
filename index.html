@@ -65,6 +65,13 @@
                 $("#img1").stop().animate({width: 280, height: 187}, 200 );
             });
         </script>
+            <script>
+                window.addEventListener('scroll', function() {
+                    var element = document.getElementById('fade-text');
+                    var opacity = 1 - (window.scrollY / window.innerHeight);
+                    element.style.opacity = opacity;
+                });
+            </script>
     <nav>
 
         <div class="nav1">
@@ -96,7 +103,7 @@
 
     </nav>
     <div class="main1">
-       <!-- <h1>Site<wbr/> In<wbr/> Progress</h1>-->
+        <div id="fade-text"><a href="#gallery">Want Photos?</a></div>
         <img id="back1" src="other/site_img/back1.jpg">
         <img id="back2"  src="other/site_img/back2.jpg">
         
