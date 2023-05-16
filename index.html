@@ -18,13 +18,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 
 </head>
-<body>
+<body onload="hideFullscreen()">
+
+                
+
+
+
     <div class="all">
 
 
 
-    <script
-  src="https://code.jquery.com/jquery-3.6.4.js"></script>
+ <script>
+    function showFullscreen(imageSrc) {
+      var fullscreenContainer = document.getElementById('fullscreenContainer');
+      var fullscreenImage = document.getElementById('fullscreenImage');
+      
+      fullscreenImage.src = imageSrc;
+      fullscreenContainer.style.display = 'block';
+    }
+    
+    function hideFullscreen() {
+      var fullscreenContainer = document.getElementById('fullscreenContainer');
+      
+      fullscreenContainer.style.display = 'none';
+    }
+  </script>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
     <script>
         $(document).ready(function(){
           // Add smooth scrolling to all links
@@ -85,7 +107,6 @@
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            
         </div>
                     <div class="menu1">
                         <img src="other/site_img/menu1.jpg" height="40px" width="40px">
@@ -117,32 +138,38 @@
                 <section class="article1" id="gallery">
                     <p>Gallery</p>
                     <p id="hid">&#128160 All photos on fullscreen! &#128160</p>
-                    <img id="img1" src="other/img/1.jpg" width="300px" height="300px" alt="1">
-                    <img id="img2" src="other/img/2.jpg" width="300px" height="600px" alt="2">
-                    <img id="img3" src="other/img/3.jpg" width="300px" height="300px" alt="3">
-                    <img id="img4" src="other/img/4.jpg" width="300px" height="600px" alt="4">
-                    <img id="img5" src="other/img/5.jpg" width="300px" height="300px" alt="5">
-                    <img id="img6" src="other/img/6.jpg" width="300px" height="600px" alt="6">
-                    <img id="img7" src="other/img/7.jpg" width="300px" height="300px" alt="7">
-                    <img id="img8" src="other/img/8.jpg" width="300px" height="600px" alt="8">
-                    <img id="img9" src="other/img/9.jpg" width="300px" height="300px" alt="9">
-                    <img id="img10" src="other/img/10.jpg" width="300px" height="600px" alt="10">
-                    <img id="img11" src="other/img/11.jpg" width="300px" height="300px" alt="11">
-                    <img id="img12" src="other/img/12.jpg" width="300px" height="300px" alt="12">
-                    <img id="img13" src="other/img/13.jpg" width="300px" height="300px" alt="13">
-                    <img id="img14" src="other/img/14.jpg" width="300px" height="300px" alt="14">
-                    <img id="img15" src="other/img/15.jpg" width="300px" height="300px" alt="15">
-                    <img id="img16" src="other/img/16.jpg" width="300px" height="300px" alt="16">
-                    <img id="img17" src="other/img/17.jpg" width="300px" height="300px" alt="17">
-                    <img id="img18" src="other/img/18.jpg" width="300px" height="300px" alt="18">
-                    <img id="img19" src="other/img/19.jpg" width="300px" height="300px" alt="19">
-                    <img id="img20" src="other/img/20.jpg" width="300px" height="300px" alt="20">
+                    <img id="img1" src="other/img/1.jpg" width="300px" height="300px" alt="1" onclick="showFullscreen('other/img/1.jpg')">
+                    <img id="img2" src="other/img/2.jpg" width="300px" height="600px" alt="2" onclick="showFullscreen('other/img/2.jpg')">
+                    <img id="img3" src="other/img/3.jpg" width="300px" height="300px" alt="3" onclick="showFullscreen('other/img/3.jpg')">
+                    <img id="img4" src="other/img/4.jpg" width="300px" height="600px" alt="4" onclick="showFullscreen('other/img/4.jpg')">
+                    <img id="img5" src="other/img/5.jpg" width="300px" height="300px" alt="5" onclick="showFullscreen('other/img/5.jpg')">
+                    <img id="img6" src="other/img/6.jpg" width="300px" height="600px" alt="6" onclick="showFullscreen('other/img/6.jpg')">
+                    <img id="img7" src="other/img/7.jpg" width="300px" height="300px" alt="7" onclick="showFullscreen('other/img/7.jpg')">
+                    <img id="img8" src="other/img/8.jpg" width="300px" height="600px" alt="8" onclick="showFullscreen('other/img/8.jpg')">
+                    <img id="img9" src="other/img/9.jpg" width="300px" height="300px" alt="9" onclick="showFullscreen('other/img/9.jpg')">
+                    <img id="img10" src="other/img/10.jpg" width="300px" height="600px" alt="10" onclick="showFullscreen('other/img/10.jpg')">
+                    <img id="img11" src="other/img/11.jpg" width="300px" height="300px" alt="11" onclick="showFullscreen('other/img/11.jpg')">
+                    <img id="img12" src="other/img/12.jpg" width="300px" height="300px" alt="12" onclick="showFullscreen('other/img/12.jpg')">
+                    <img id="img13" src="other/img/13.jpg" width="300px" height="300px" alt="13" onclick="showFullscreen('other/img/13.jpg')">
+                    <img id="img14" src="other/img/14.jpg" width="300px" height="300px" alt="14" onclick="showFullscreen('other/img/14.jpg')">
+                    <img id="img15" src="other/img/15.jpg" width="300px" height="300px" alt="15" onclick="showFullscreen('other/img/15.jpg')">
+                    <img id="img16" src="other/img/16.jpg" width="300px" height="300px" alt="16" onclick="showFullscreen('other/img/16.jpg')">
+                    <img id="img17" src="other/img/17.jpg" width="300px" height="300px" alt="17" onclick="showFullscreen('other/img/17.jpg')">
+                    <img id="img18" src="other/img/18.jpg" width="300px" height="300px" alt="18" onclick="showFullscreen('other/img/18.jpg')">
+                    <img id="img19" src="other/img/19.jpg" width="300px" height="300px" alt="19" onclick="showFullscreen('other/img/19.jpg')">
+                    <img id="img20" src="other/img/20.jpg" width="300px" height="300px" alt="20" onclick="showFullscreen('other/img/20.jpg')">
 
                     
                     
                 </section>
 
-
+                <div id="fullscreenContainer">
+                    <div class="fullscreen" onclick="hideFullscreen()">
+                      <img id="fullscreenImage">
+                      <br />
+                      <p>@mateusz_tomaszek_</p>
+                    </div>
+                  </div>
 
                 <section class="article2" id="about">
                     <p>About Me</p>
