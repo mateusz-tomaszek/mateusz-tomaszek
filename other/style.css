@@ -35,6 +35,26 @@
 
 
 
+
+
+
+
+
+  #arr1:hover
+  {
+    opacity: 0.6;
+    transition: 150ms;
+    margin-top: 5px;
+  }
+
+  #arr1:not(:hover)
+  {
+    opacity: 1;
+    transition: 150ms;
+    margin-top: -5px;
+  }
+
+
 /*BLOCK SCROLL*/
 
 /* width */
