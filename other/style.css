@@ -175,7 +175,7 @@ nav
 }
 .nav1 a[href="https://mateusztomaszek.com.pl/"]:hover
 {
-color: rgb(160, 0, 0);
+color: #8b8b8b;
 }
 
 
@@ -456,9 +456,9 @@ footer p
     font-weight: bold;
 }
 #img1{top: -300px;}
-#img2{}
+
 #img3{top: -300px;}
-#img4{}
+
 #img5{top: -300px;}
 #img6{top: -300px;}
 #img7{top: -300px;}
@@ -505,6 +505,7 @@ footer p
     object-fit: cover;
     object-position: center;
     transition: 1s;
+    scale: 100%;
 }
 }
 
@@ -617,7 +618,7 @@ footer p
     object-fit: contain;
     object-position: center;
     transition: 1s;
-    scale: 120%;
+    scale: 160%;
 }
     #hid
 {
@@ -638,21 +639,21 @@ footer p
     font-weight: bold;
 
 }
-#img1{}
+
 #img2{display: none}
-#img3{}
+
 #img4{display: none}
-#img5{}
+
 #img6{display: none}
-#img7{}
+
 #img8{display: none}
-#img9{}
+
 #img10{display: none}
-#img11{}
+
 #img12{display: none}
-#img13{}
+
 #img14{display: none;}
-#img15{}
+
 #img16{top: 0px;}
 #img17{top: 0px;}
 #img18{top: 0px;}
@@ -793,6 +794,7 @@ footer p
     object-fit: cover;
     object-position: center;
     transition: 1s;
+    scale: 100%;
 }
 
 
@@ -974,6 +976,7 @@ footer p
         object-fit: cover;
         object-position: center;
         transition: 1s;
+        scale: 100%;
     }
 
 
@@ -996,7 +999,7 @@ footer p
     font-weight: bold;
 }
 #img1{top: -300px;}
-#img2{}
+
 #img3{top: -300px; left: 318px;}
 #img4{top: 0x; left: -318px;}
 #img5{top: -600px;}
@@ -1198,8 +1201,9 @@ footer p
         width: 100%;
         height: 100%;
         object-fit: cover;
-        object-position: center;
+        object-position: -120px;
         transition: 1s;
+        scale: 100%;
     }
 
 
@@ -1342,9 +1346,9 @@ footer p
     font-weight: bold;
 }
 #img1{top: -300px;}
-#img2{}
+
 #img3{top: -300px;}
-#img4{}
+
 #img5{top: -300px;}
 #img6{top: -300px;}
 #img7{top: -300px;}
@@ -1430,9 +1434,10 @@ footer p
 
 
 #fade-text {
-    margin-top: 70px;
+    z-index: 1;
+    margin-top: 50px;
     position: absolute;
-    font-size: 50px;
+    font-size: 60px;
     font-family: helvetica;
     opacity: 1;
     transition: opacity 0.1s ease;
@@ -1441,7 +1446,7 @@ footer p
     right: 0%;
     top: 0%;
     bottom: 0%;
-    text-shadow:1px 5px 1px #131313;
+    text-shadow:4px 7px 10px #131313;
   
 }
 #fade-text a {
