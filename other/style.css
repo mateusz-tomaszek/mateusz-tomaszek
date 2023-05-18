@@ -868,6 +868,8 @@ footer p
 @media (max-width: 1054px){
 
 
+
+    
     .article1 img:hover
     {
         filter: brightness(100%);
@@ -1428,10 +1430,10 @@ footer p
 
 
 #fade-text {
-    margin-top: 50px;
+    margin-top: 70px;
     position: absolute;
-    font-size: 60px;
-    font-family: impact;
+    font-size: 50px;
+    font-family: helvetica;
     opacity: 1;
     transition: opacity 0.1s ease;
     text-align: center;
