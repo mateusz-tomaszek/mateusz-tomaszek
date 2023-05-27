@@ -528,7 +528,7 @@ footer p
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center;
+    object-position: 0px -230px;
     transition: 1s;
     scale: 100%;
 }
@@ -640,10 +640,10 @@ footer p
     left:0%;
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
     object-position: center;
     transition: 1s;
-    scale: 200%;
+    scale: 100%;
 }
     #hid
 {
@@ -1001,7 +1001,7 @@ footer p
         width: 100%;
         height: 100%;
         object-fit: cover;
-        object-position: center;
+        object-position: -80px -30px;
         transition: 1s;
         scale: 100%;
     }
@@ -1227,7 +1227,7 @@ footer p
         width: 100%;
         height: 100%;
         object-fit: cover;
-        object-position: -120px;
+        object-position: -130px;
         transition: 1s;
         scale: 100%;
     }
