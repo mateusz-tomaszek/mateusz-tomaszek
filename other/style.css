@@ -10,7 +10,7 @@
     justify-content: center;
     padding-top: 50px;
     align-items: center;
-    background-color: rgba(22, 22, 22, 0.959);
+    background-color: rgba(15, 15, 15, 0.959);
   }
   
   .alert p {
@@ -647,7 +647,7 @@ footer p
 }
     #hid
 {
-    display: block;
+    display: none;
 }
     article{
         
@@ -825,7 +825,7 @@ footer p
 
     #hid
 {
-    display: none;
+    display: block;
 }
     article{
         
@@ -1429,7 +1429,7 @@ footer p
         overflow: hidden;
     }
 }
-@media (max-height: 420px){
+@media (max-height: 243px){
 
     .alert 
     {
@@ -1440,6 +1440,24 @@ footer p
         overflow: hidden;
     }
 }
+
+@media (max-height: 790px){
+    #arr1
+    {
+        display: none;
+    }
+    .main1 img
+    {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        transition: 1s;
+        scale: 100%;
+    }
+}
+
+
 
   #dm {
     color: white;
