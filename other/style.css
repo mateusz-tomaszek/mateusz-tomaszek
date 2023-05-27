@@ -1,3 +1,30 @@
+.alert {
+    z-index: 15;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    text-align: center;
+    display: none;
+    justify-content: center;
+    padding-top: 50px;
+    align-items: center;
+    background-color: rgba(22, 22, 22, 0.959);
+  }
+  
+  .alert p {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+  }
+
+
+
+
+
+
+
 .fullscreen {
     position: fixed;
     top: 0;
@@ -1387,6 +1414,32 @@ footer p
 
 }
 
+/*------------------------------------------------------------------------------------------------*/
+/*--------------------------------          ZA MALE         --------------------------------------*/
+/*------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 347px){
+
+    .alert 
+    {
+        display: block;
+    }
+    body
+    {
+        overflow: hidden;
+    }
+}
+@media (max-height: 340px){
+
+    .alert 
+    {
+        display: block;
+    }
+    body
+    {
+        overflow: hidden;
+    }
+}
 
   #dm {
     color: white;
