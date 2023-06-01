@@ -193,6 +193,7 @@ nav
     text-decoration: none;
     top: 25%;
     align-items: center;
+    justify-content: center;
     height: 80%;
     font-weight: bold;
     color: rgb(255, 255, 255); /*rgb(0, 162, 255);*/
@@ -298,12 +299,10 @@ footer
 }
 footer p
 {   
-
     float: bottom;
-    justify-content: center;
+    margin-bottom: 5px;
     align-items: center;
     text-align: center;
-    
 
 }
 
