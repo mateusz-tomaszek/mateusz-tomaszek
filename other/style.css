@@ -1179,7 +1179,7 @@ footer p
 }
 .dropdown ul li:hover
 {
-    background-color:rgb(38, 47, 53);
+    background-color:hsl(189, 100%, 18%);
     border-radius: 7px;
     
     
