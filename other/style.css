@@ -1095,7 +1095,6 @@ footer p
 
     
 
-
 .menu1:hover .dropdown ul,
 .dropdown ul:hover
 {
@@ -1154,10 +1153,9 @@ footer p
     color:white;
     padding: 0;
     list-style-type: none;
-    background-color: rgba(10, 10, 10, 0.705);
+    background-color: rgba(10, 10, 10, 0.905);
     box-shadow: 10px 10px 23px 5px rgba(0,0,0,0.25);
     border-radius: 7px;
-    width: 200px;
     display: none;
 } 
 .dropdown ul li a
@@ -1181,7 +1179,7 @@ footer p
 }
 .dropdown ul li:hover
 {
-    background-color:rgb(42, 53, 61);
+    background-color:rgb(38, 47, 53);
     border-radius: 7px;
     
     
@@ -1418,18 +1416,89 @@ footer p
 /*------------------------------------------------------------------------------------------------*/
 /*--------------------------------          ZA MALE         --------------------------------------*/
 /*------------------------------------------------------------------------------------------------*/
-/*
+
 @media (max-width: 347px){
 
-    .alert 
-    {
-        display: block;
-    }
-    body
-    {
-        overflow: hidden;
-    }
+#img1{height: 250px; width: 250px;}
+#img2{height: 500px; width: 250px;}
+#img3{height: 250px; width: 250px;}
+#img4{height: 500px; width: 250px;}
+#img5{height: 250px; width: 250px;}
+#img6{height: 500px; width: 250px;}
+#img7{height: 250px; width: 250px;}
+#img8{height: 500px; width: 250px;}
+#img9{height: 250px; width: 250px;}
+#img10{height: 500px; width: 250px;}
+#img11{height: 250px; width: 250px;}
+#img12{height: 250px; width: 250px;}
+#img13{height: 250px; width: 250px;}
+#img14{height: 250px; width: 250px;}
+#img15{height: 250px; width: 250px;}
+#img16{height: 250px; width: 250px;}
+#img17{height: 250px; width: 250px;}
+#img18{height: 250px; width: 250px;}
+#img19{height: 250px; width: 250px;}
+#img20{height: 250px; width: 250px;}
+    article{
+        all: none;
+        background-color:rgb(19,19,19);
+    top: 100%;
+    position: absolute;
+    height: 8000px;
+    box-shadow: 10px 10px 23px 5px rgba(0,0,0,0.25);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
 }
+.me1
+{
+    position: absolute;
+    background-color: rgb(19,19,19);
+    float: left;
+    top: 15%;
+    left: 1%;
+    width: 98%;
+    height: 100px;
+    scale: 80%;
+}
+.me1 a{   
+    width: 50px;
+    height: 50px; 
+    top:0%;
+    float: top;
+    align-items: top;
+    text-align: top;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 0;
+    animation:slide-fwd-center .6s cubic-bezier(.25,.46,.45,.94) both
+}
+.li1
+{
+    position: absolute;
+    top: 0%;
+    height: 30%;
+    left: 0%;
+    width: 100%;
+    font-size: 20px;
+}
+.li2
+{
+    position: absolute;
+    top: 20%;
+    height: 100%;
+    left: 0%;
+    width: 100%;
+    font-size: 20px;
+}
+.article3
+{
+    font-size: 30px;
+}
+
+}
+/*
 @media (max-height: 243px){
 
     .alert 
