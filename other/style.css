@@ -1,3 +1,10 @@
+#arr1
+{
+    display: none;
+}
+
+
+
 .alert {
     z-index: 15;
     position: absolute;
@@ -233,7 +240,6 @@ color: #8b8b8b;
 {
     position: absolute;
     top: 0%;
-    height: 60%;
     left: 0%;
     width: 100%;
     float: bottom;
@@ -470,12 +476,12 @@ footer p
     article{
         all: none;
         background-color:rgb(19, 19, 19);
-    top: 100%;
+    top: 35%;
     position: absolute;
     height: 3050px;
     left: 5%;
     width: 90%;
-    box-shadow: 10px 10px 23px 5px rgba(0,0,0,0.25);
+    box-shadow: 20px -13px 53px 3px rgba(0, 0, 0, 0.884);
     color: white;
     font-size: 40px;
     text-align: center;
@@ -534,7 +540,11 @@ footer p
     scale: 100%;
 }
 }
+#fade-text {
 
+    font-size: 60px;
+  
+}
 /*------------------------------------------------------------------------------------------------*/
 
 @media (max-width: 1759px){
@@ -653,7 +663,7 @@ footer p
     article{
         
         background-color:rgb(19, 19, 19);
-    top: 100%;
+        top: 35%;
     position: absolute;
     height: 3400px;
     left: 5%;
@@ -711,7 +721,11 @@ footer p
     font-weight: 0;
 }
 }
+#fade-text {
 
+    font-size: 60px;
+  
+}
 /*------------------------------------------------------------------------------------------------*/
 
 @media (max-width: 1407px){
@@ -831,7 +845,7 @@ footer p
     article{
         
         background-color:rgb(19, 19, 19);
-    top: 100%;
+        top: 35%;
     position: absolute;
     height: 3300px;
     left: 5%;
@@ -893,7 +907,11 @@ footer p
     font-weight: 0;
 }
 }
+#fade-text {
 
+    font-size: 60px;
+  
+}
 /*------------------------------------------------------------------------------------------------*/
 
 @media (max-width: 1054px){
@@ -1002,7 +1020,7 @@ footer p
         width: 100%;
         height: 100%;
         object-fit: cover;
-        object-position: -80px -30px;
+        object-position: -80px 0px;
         transition: 1s;
         scale: 100%;
     }
@@ -1015,7 +1033,7 @@ footer p
     article{
         
         background-color:rgb(19, 19, 19);
-    top: 100%;
+        top: 35%;
     position: absolute;
     height: 3650px;
     left: 5%;
@@ -1072,6 +1090,11 @@ footer p
     font-weight: 0;
 }
 }
+#fade-text {
+
+    font-size: 60px;
+  
+}
 
 /*------------------------------------------------------------------------------------------------*/
 
@@ -1091,9 +1114,11 @@ footer p
         transition: 300ms;
         border-radius: 15px;
     }
-    
+    #fade-text {
 
-    
+        font-size: 45px;
+      
+    }
 
 .menu1:hover .dropdown ul,
 .dropdown ul:hover
@@ -1236,7 +1261,7 @@ footer p
     article{
         all: none;
         background-color:rgb(19, 19, 19);
-    top: 100%;
+        top: 35%;
     position: absolute;
     height: 9250px;
     left: 5%;
@@ -1304,6 +1329,7 @@ footer p
 /*------------------------------------------------------------------------------------------------*/
 @media (min-width: 2100px){
     article{
+        top: 35%;
     height: 340%;
 }
 }
@@ -1364,7 +1390,7 @@ footer p
     article{
         all: none;
         background-color:rgb(19,19,19);
-    top: 100%;
+        top: 35%;
     position: absolute;
     height: 3000px;
     left: 15%;
@@ -1422,7 +1448,11 @@ footer p
 /*------------------------------------------------------------------------------------------------*/
 
 @media (max-width: 347px){
+    #fade-text {
 
+        font-size: 32px;
+      
+    }
 #img1{height: 250px; width: 250px;}
 #img2{height: 500px; width: 250px;}
 #img3{height: 250px; width: 250px;}
@@ -1446,7 +1476,7 @@ footer p
     article{
         all: none;
         background-color:rgb(19,19,19);
-    top: 100%;
+        top: 40%;
     position: absolute;
     height: 8000px;
     box-shadow: 10px 10px 23px 5px rgba(0,0,0,0.25);
@@ -1583,7 +1613,7 @@ footer p
     z-index: 1;
     margin-top: 50px;
     position: absolute;
-    font-size: 60px;
+   /* font-size: 60px;*/
     font-family: 'Tilt Neon';
     opacity: 1;
     transition: opacity 0.1s ease;
