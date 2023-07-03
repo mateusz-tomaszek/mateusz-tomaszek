@@ -1130,6 +1130,8 @@ footer p
     animation:shadow-drop-2-center .4s cubic-bezier(.25,.46,.45,.94) both;
     animation:tracking-in-expand-fwd .8s cubic-bezier(.215,.61,.355,1.000) both;
 }
+
+
 .menu1
 {
     position: absolute;
@@ -1488,7 +1490,7 @@ footer p
         background-color:rgb(19,19,19);
         top: 40%;
     position: absolute;
-    height: 8000px;
+    height: 6660px;
     box-shadow: 10px 10px 23px 5px rgba(0,0,0,0.25);
     color: white;
     font-size: 40px;
