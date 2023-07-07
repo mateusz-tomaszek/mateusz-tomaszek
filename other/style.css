@@ -1542,7 +1542,14 @@ footer p
 {
     font-size: 30px;
 }
-
+.menu1
+{
+    display: none;
+}
+.nav1
+{
+    width: 100%; 
+}
 }
 
 
