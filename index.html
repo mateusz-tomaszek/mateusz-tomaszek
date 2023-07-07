@@ -34,7 +34,47 @@
             <p>TOO SMALL DEVICE</p>
         </div>
 
-       
+        <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+        <script>
+            $(document).ready(function(){
+              // Add smooth scrolling to all links
+              $("a").on('click', function(event) {
+            
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                  // Prevent default anchor click behavior
+                  event.preventDefault();
+            
+                  // Store hash
+                  var hash = this.hash;
+            
+                  // Using jQuery's animate() method to add smooth page scroll
+                  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                  $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                  }, 800, function(){
+            
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                  });
+                } // End if
+              });
+            });
+    
+    
+                    $('#gallery').hover(function(){
+                    $(this).find('img').fadeTo(500, 0.5);
+                }, function(){
+                    $(this).find('img').fadeTo(500, 1);
+                });
+    
+            $('#img1').click(function() {
+                    $('#gallery').find('img').fadeTo(0, 1);
+                    $("#img1").stop().animate({width: 800, height: 533}, 200 );
+                    }).mouseout(function(){
+                    $("#img1").stop().animate({width: 280, height: 187}, 200 );
+                });
+            </script>
             <script>
                 window.addEventListener('scroll', function() {
                     var element = document.getElementById('fade-text');
@@ -77,7 +117,7 @@
 
     </nav>
     <div class="main1">
-        <div id="fade-text"><a href="#gallery"><span style="font-weight: bold; ">YOU LOVE CARS?</span><br /><span style="font-size: 25px; color: #ebebeb;">CLICK ON LOGO<!--SCROLL DOWN--></span></a></div>
+        <div id="fade-text"><a href="#gallery"><span style="font-weight: bold; ">YOU LOVE CARS?</span><br /><span style="font-size: 25px; color: #ebebeb;">SITE IN PROGRESS<!--SCROLL DOWN--></span></a></div>
         <img id="back1" src="other/site_img/back1.webp" alt="background">
         
     </div>
@@ -88,27 +128,27 @@
             </div>
 
                 <section class="article1" id="gallery">
-                    <p>Gallery</p>
-                    <a href="https://mateusztomaszek.com.pl/subpages/alpine.html"><img id="img10" src="other/img/main/10.webp" width="300px" height="300px" alt="Alpine"></a> <!-- 1 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/audi.html"><img id="img8" src="other/img/main/8.webp" width="300px" height="300px" alt="Audi"></a> <!-- 2 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/bmw.html"><img id="img3" src="other/img/main/3.webp" width="300px" height="300px" alt="BMW"></a> <!-- 3 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/bugatti.html"><img id="img2" src="other/img/main/2.webp" width="300px" height="300px" alt="Bugatti"></a> <!-- 4 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/camaro.html"><img id="img14" src="other/img/main/14.webp" width="300px" height="300px" alt="Camaro"></a> <!-- 5 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/corvette.html"><img id="img1" src="other/img/main/1.webp" width="300px" height="300px" alt="Corvette"></a> <!-- 6 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/challenger.html"><img id="img16" src="other/img/main/16.webp" width="300px" height="300px" alt="Challenger"></a> <!-- 7 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/ferrari.html"><img id="img5" src="other/img/main/5.webp" width="300px" height="300px" alt="Ferrari"></a> <!-- 8 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/honda"><img id="img9" src="other/img/main/9.webp" width="300px" height="300px" alt="Honda"></a> <!-- 9 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/lamborghini.html"><img id="img12" src="other/img/main/12.webp" width="300px" height="300px" alt="Lamborghini"></a> <!-- 10 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/maserati.html"><img id="img17" src="other/img/main/17.webp" width="300px" height="300px" alt="Maserati"></a> <!-- 11 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/mazda.html"><img id="img19" src="other/img/main/19.webp" width="300px" height="300px" alt="Mazda"></a> <!-- 12 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/mclaren.html"><img id="img4" src="other/img/main/4.webp" width="300px" height="300px" alt="McLaren"></a> <!-- 13 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/amg_gtr.html"><img id="img15" src="other/img/main/15.webp" width="300px" height="300px" alt="Mercedes"></a> <!-- 14 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/mitsubishi.html"><img id="img18" src="other/img/main/18.webp" width="300px" height="300px" alt="Mitsubishi"></a> <!-- 15 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/nissan_x.html"><img id="img11" src="other/img/main/11.webp" width="300px" height="300px" alt="Nissan_x"></a> <!-- 16 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/nissan_gtr.html"><img id="img7" src="other/img/main/7.webp" width="300px" height="300px" alt="Nissan_gtr"></a> <!-- 17 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/porsche.html"><img id="img13" src="other/img/main/13.webp" width="300px" height="300px" alt="Porsche"></a> <!-- 18 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/toyota.html"><img id="img6" src="other/img/main/6.webp" width="300px" height="300px" alt="Toyota"></a> <!-- 19 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/volkswagen.html"><img id="img20" src="other/img/main/20.webp" width="300px" height="300px" alt="Volkswagen"></a> <!-- 20 -->
+                    <p>SITE IN PROGRESS</p>
+                    <a href="#about"><img id="img10" src="other/img/main/10.webp" width="300px" height="300px" alt="Alpine"></a> <!-- 1 -->
+                    <a href="#about"><img id="img8" src="other/img/main/8.webp" width="300px" height="300px" alt="Audi"></a> <!-- 2 -->
+                    <a href="#about"><img id="img3" src="other/img/main/3.webp" width="300px" height="300px" alt="BMW"></a> <!-- 3 -->
+                    <a href="#about"><img id="img2" src="other/img/main/2.webp" width="300px" height="300px" alt="Bugatti"></a> <!-- 4 -->
+                    <a href="#about"><img id="img14" src="other/img/main/14.webp" width="300px" height="300px" alt="Camaro"></a> <!-- 5 -->
+                    <a href="#about"><img id="img1" src="other/img/main/1.webp" width="300px" height="300px" alt="Corvette"></a> <!-- 6 -->
+                    <a href="#about"><img id="img16" src="other/img/main/16.webp" width="300px" height="300px" alt="Challenger"></a> <!-- 7 -->
+                    <a href="#about"><img id="img5" src="other/img/main/5.webp" width="300px" height="300px" alt="Ferrari"></a> <!-- 8 -->
+                    <a href="#about"><img id="img9" src="other/img/main/9.webp" width="300px" height="300px" alt="Honda"></a> <!-- 9 -->
+                    <a href="#about"><img id="img12" src="other/img/main/12.webp" width="300px" height="300px" alt="Lamborghini"></a> <!-- 10 -->
+                    <a href="#about"><img id="img17" src="other/img/main/17.webp" width="300px" height="300px" alt="Maserati"></a> <!-- 11 -->
+                    <a href="#about"><img id="img19" src="other/img/main/19.webp" width="300px" height="300px" alt="Mazda"></a> <!-- 12 -->
+                    <a href="#about"><img id="img4" src="other/img/main/4.webp" width="300px" height="300px" alt="McLaren"></a> <!-- 13 -->
+                    <a href="#about"><img id="img15" src="other/img/main/15.webp" width="300px" height="300px" alt="Mercedes"></a> <!-- 14 -->
+                    <a href="#about"><img id="img18" src="other/img/main/18.webp" width="300px" height="300px" alt="Mitsubishi"></a> <!-- 15 -->
+                    <a href="#about"><img id="img11" src="other/img/main/11.webp" width="300px" height="300px" alt="Nissan_x"></a> <!-- 16 -->
+                    <a href="#about"><img id="img7" src="other/img/main/7.webp" width="300px" height="300px" alt="Nissan_gtr"></a> <!-- 17 -->
+                    <a href="#about"><img id="img13" src="other/img/main/13.webp" width="300px" height="300px" alt="Porsche"></a> <!-- 18 -->
+                    <a href="#about"><img id="img6" src="other/img/main/6.webp" width="300px" height="300px" alt="Toyota"></a> <!-- 19 -->
+                    <a href="#about"><img id="img20" src="other/img/main/20.webp" width="300px" height="300px" alt="Volkswagen"></a> <!-- 20 -->
 
                     
                     
