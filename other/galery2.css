@@ -1134,20 +1134,20 @@ footer p
 @media (min-width: 2100px){
 
     .article1 img:hover
-    {
-        filter: brightness(100%);
-        transition: 300ms;
-    
-    }
-    
-    .article1 img:not(:hover)
-    {
-    
-        filter: brightness(75%);
-        transition: 300ms;
-        border-radius: 15px;
-    }
-    
+{
+    filter: brightness(80%);
+    transition: 300ms;
+
+}
+
+.article1 img:not(:hover)
+{
+
+    filter: brightness(100%);
+    transition: 300ms;
+    border-radius: 15px;
+}
+
 
     .me1
 {
