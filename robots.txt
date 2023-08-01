@@ -1,2 +1,3 @@
 User-agent: Googlebot-Image
 Disallow: /other/img/main/*.webp
+Disallow: /other/site_img/*.webp
