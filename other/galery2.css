@@ -9,7 +9,16 @@
 
 
 
-
+.linkwhite
+{
+    text-decoration: none;
+    color: white;
+}
+.linkwhite:hover
+{
+    text-decoration: none;
+    color: rgb(167, 177, 179);
+}
 
 
 
