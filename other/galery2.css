@@ -1459,3 +1459,22 @@ text-decoration: none;
 color: white;
 }
 
+
+
+
+
+
+.article1 img:hover
+{
+    transition: transform 0.2s;
+    transform: scale(1.05); 
+    
+
+}
+
+.article1 img:not(:hover)
+{
+    transition: transform 0.2s;
+    transform: scale(1); 
+
+}

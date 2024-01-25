@@ -1352,6 +1352,7 @@ footer p
 {
     filter: brightness(80%);
     transition: 300ms;
+    
 
 }
 
@@ -1823,4 +1824,47 @@ color: white;
   50%,100% {
     bottom: 100%;
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.article1 img:hover
+{
+    transition: transform 0.2s;
+    transform: scale(1.05); 
+    
+
+}
+
+.article1 img:not(:hover)
+{
+    transition: transform 0.2s;
+    transform: scale(1); 
+
 }
