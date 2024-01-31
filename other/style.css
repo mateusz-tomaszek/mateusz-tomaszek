@@ -168,20 +168,28 @@ body
     scroll-behavior: smooth;
 }*/
 
+
+
+
+
 .me1 img:hover
 {
-    filter: brightness(130%);
+   
     box-shadow: 10px 10px 13px 5px rgba(0, 0, 0, 0.466);
     transition: 300ms;
+    transition: transform 0.2s;
+    transform: scale(1.05); 
 
 }
 
 .me1 img:not(:hover)
 {
 
-    filter: brightness(90%);
+    
     transition: 300ms;
     border-radius: 15px;
+    transition: transform 0.2s;
+    transform: scale(1); 
 }
 
 
