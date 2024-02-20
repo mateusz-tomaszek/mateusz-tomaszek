@@ -219,7 +219,7 @@
                             
 
                     <footer>
-                        <p>© Copyright 2023 Mateusz Tomaszek. All Rights Reserved.</p>
+                        <p>© Copyright <span id="year"></span> Mateusz Tomaszek. All Rights Reserved.</p>
                     </footer>
                 </section>
                 
@@ -227,3 +227,13 @@
     </div>
 </body>
 </html>
+
+<script>
+    function year() 
+    {
+        const dzisiaj = new Date();
+        return dzisiaj.getFullYear();
+    }
+
+    document.getElementById('year').textContent = year();
+</script>
