@@ -311,21 +311,13 @@ h1{text-align: center;align-items: center;}
 footer
 {
     position: absolute;
-    float: bottom;
     bottom: 0px;
-    height: 50px;
+    height: 60px;
     width: 100%;
     background-color: rgb(40, 40, 40);
     font-size: 15px;
-    
-}
-footer p
-{   
-    float: bottom;
-    margin-bottom: 5px;
-    align-items: center;
     text-align: center;
-
+    
 }
 
 
@@ -535,7 +527,7 @@ footer p
 .li2
 {
     top: 0%;
-    height: 100%;
+
     left: 50%;
     width: 51%;
     font-size: 40px;
@@ -726,7 +718,7 @@ footer p
 {
 
     top: 0%;
-    height: 100%;
+
     left: 45%;
     width: 56%;
     font-size: 38px;
@@ -913,7 +905,7 @@ footer p
 {
 
     top: 0%;
-    height: 100%;
+
     left: 45%;
     width: 56%;
     font-size: 29px;
@@ -1097,7 +1089,7 @@ footer p
 {
 
     top: 30%;
-    height: 100%;
+
     left: 0%;
     width: 100%;
     font-size: 29px;
@@ -1330,7 +1322,7 @@ footer p
 {
 
     top: 30%;
-    height: 100%;
+   
     left: 0%;
     width: 100%;
     font-size: 24px;
@@ -1411,7 +1403,8 @@ footer p
         top: 37%;
     position: absolute;
     height: 2700px;
-    left: 15%;
+    left: 50%;
+    transform: translateX(-50%);
     right: 15%;
     width: 1800px;
     box-shadow: 20px -13px 53px 3px rgba(0, 0, 0, 0.884);
@@ -1453,7 +1446,7 @@ footer p
 .li2
 {
     top: 0%;
-    height: 100%;
+
     left: 50%;
     width: 51%;
     font-size: 40px;
@@ -1545,7 +1538,7 @@ footer p
 {
     position: absolute;
     top: 20%;
-    height: 100%;
+
     left: 0%;
     width: 100%;
     font-size: 20px;
