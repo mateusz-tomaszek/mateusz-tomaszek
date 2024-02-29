@@ -219,7 +219,7 @@ nav
     width: 80%;
     font-size: 20px;
 }
-.nav1 a[href="https://mateusztomaszek.com.pl/"]
+.nav1 a[href="https://mateusz-tomaszek.pl/"]
 {
     position: absolute;
     text-decoration: none;
@@ -233,7 +233,7 @@ nav
     
     
 }
-.nav1 a[href="https://mateusztomaszek.com.pl/"]:hover
+.nav1 a[href="https://mateusz-tomaszek.pl/"]:hover
 {
 color: #8b8b8b;
 }
