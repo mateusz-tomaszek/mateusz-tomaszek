@@ -224,6 +224,7 @@ nav
     font-weight: bold;
     color: rgb(255, 255, 255); /*rgb(0, 162, 255);*/
     left: 15px;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 1);
     
     
 }
@@ -232,6 +233,21 @@ nav
 color: #8b8b8b;
 }
 
+
+
+.nav1 img
+{
+    position: absolute;
+    height: 70%;
+    top: 15%;
+    border-radius: 4px;
+    -webkit-box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 1);
+    box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 1);
+    width: auto;
+    left: 205px;
+    
+}
 
 
   
