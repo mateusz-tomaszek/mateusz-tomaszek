@@ -209,6 +209,7 @@ nav
     height: 100%;
     width: 80%;
     font-size: 20px;
+    
 }
 .nav1 a[href="https://mateusz-tomaszek.pl/"]
 {
@@ -221,12 +222,28 @@ nav
     font-weight: bold;
     color: rgb(255, 255, 255); /*rgb(0, 162, 255);*/
     left: 15px;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 1);
     
     
 }
 .nav1 a[href="https://mateusz-tomaszek.pl/"]:hover
 {
 color: #8b8b8b;
+}
+
+
+
+.nav1 img
+{
+    position: absolute;
+    height: 70%;
+    top: 15%;
+    border-radius: 4px;
+    -webkit-box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 1);
+    box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 1);
+    width: auto;
+    
 }
 
 
@@ -382,6 +399,10 @@ footer
 
 @media (min-width: 1759px){
 
+    .nav1 img
+{
+    left: 205px;
+}
     .article1 img:hover
 {
     filter: brightness(80%);
@@ -573,7 +594,10 @@ footer
         border-radius: 15px;
     }
     
-
+    .nav1 img
+    {
+        left: 205px;
+    }
 
 .dropdown
 {
@@ -754,7 +778,10 @@ footer
         border-radius: 15px;
     }
     
-    
+    .nav1 img
+{
+    left: 205px;
+}
 
 
 .dropdown
@@ -946,7 +973,10 @@ footer
     
 
     
-
+    .nav1 img
+    {
+        left: 205px;
+    }
 
 .dropdown
 {
@@ -1256,7 +1286,10 @@ footer
 }
 
 
-
+.nav1 img
+{
+    left: 205px;
+}
 
 
     .main1 img
@@ -1457,7 +1490,10 @@ footer
     margin-left: 6%;
     font-weight: 0;
 }
-
+.nav1 img
+{
+    left: 205px;
+}
 }
 
 /*------------------------------------------------------------------------------------------------*/
@@ -1470,6 +1506,7 @@ footer
         font-size: 32px;
       
     }
+    img{height: 250px; width: 250px;}
 #img1{height: 250px; width: 250px;}
 #img2{height: 250px; width: 250px;}
 #img3{height: 250px; width: 250px;}
@@ -1555,6 +1592,11 @@ footer
 {
     width: 100%; 
 }
+
+.nav1 img
+{
+    right: 10; 
+}
 }
 
 
@@ -1576,7 +1618,10 @@ footer
     font-weight: bold;
 }
 }
-
+.nav1 img
+{
+    left: 205px;
+}
 
 
 
@@ -1624,7 +1669,10 @@ footer
     }
 }
 
-
+.nav1 img
+{
+    left: 205px;
+}
 
   #dm {
     color: white;
@@ -1871,4 +1919,11 @@ color: white;
 button
 {
     cursor: pointer;
+}
+
+
+
+.article1 span
+{
+    font-size: 60%;
 }
