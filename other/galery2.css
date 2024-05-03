@@ -1,7 +1,7 @@
 .main1
 {
     background: rgb(40,40,40);
-    background: linear-gradient(0deg, rgba(40,40,40,1) 2%, rgba(19,19,19,1) 23%, rgba(86, 2, 107) 56%, rgba(19,19,19,1) 84%);
+    background: linear-gradient(0deg, rgba(40,40,40,1) 2%, rgba(19,19,19,1) 23%, rgba(197, 147, 9) 56%, rgba(19,19,19,1) 84%);
 }
 
 
@@ -114,28 +114,25 @@
   }
 
 
-/*BLOCK SCROLL*/
-
-/* width */
+/* custom scrollbar */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 15px;
   }
   
-  /* Track */
   ::-webkit-scrollbar-track {
-    background: #131313;
+    background-color: transparent !important;
   }
   
-  /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #404040;
+    background-color: #d6dee1;
+    border-radius: 15px;
+    border: 6px solid transparent;
+    background-clip: content-box;
   }
   
-  /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #606060;
+    background-color: #99aaad;
   }
-
 
 
 
@@ -213,19 +210,21 @@ nav
     background-color: rgb(19, 19, 19);
     position: absolute;
     float: left;
-    top: 0%;
-    left: 0%;
+    top: 50%;
+    left: 50%;
     height: 100%;
-    width: 80%;
+    width: 100%;
     font-size: 20px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .nav1 a[href="https://mateusz-tomaszek.pl/"]
 {
-    position: absolute;
+
     text-decoration: none;
-    top: 25%;
-    align-items: center;
-    justify-content: center;
     height: 80%;
     font-weight: bold;
     color: rgb(255, 255, 255); /*rgb(0, 162, 255);*/
