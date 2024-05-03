@@ -25,7 +25,7 @@ font-family: sans-serif;
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background-color: #a8bbbf;
+    background-color: #99aaad;
   }
 
 * :not(body, .bg, .navbar, .nav-container, .hamburger-lines,.logo)
@@ -72,16 +72,19 @@ body
 }
 
 .nav-container {
-    left: 0%;
+    left: 5%;
     width: 95%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 62px;
+  
 }
 
 .navbar .menu-items {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar .nav-container li {
@@ -165,14 +168,13 @@ body
 }
 
 .navbar .menu-items {
-  padding-top: 120px;
   height: 100vh;
   width: 100vw;
+  margin-left: -5vw;
   transform: translate(150%);
   flex-direction: column;
   transition: transform 0.5s ease-in-out;
   text-align: center;
-  display: flex;
   background-color: #060606;
 }
 
@@ -243,7 +245,7 @@ body
 
   .typing-demo {
     border-right: #ffffff solid 3px;
-    margin-left: 10px;
+    
 }
 
 @keyframes unsetMargin {
