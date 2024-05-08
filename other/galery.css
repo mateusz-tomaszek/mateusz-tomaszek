@@ -1,10 +1,15 @@
 .main1
 {
-    background: rgb(40,40,40);
-    background: linear-gradient(0deg, rgba(40,40,40,1) 2%, rgba(19,19,19,1) 23%, rgb(197, 147, 9) 56%, rgba(19,19,19,1) 84%);
+    background: rgba(19,19,19,1);
+
 }
 
-
+article
+{
+    border: 2px rgb(255, 193, 22) solid;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
 
 
 #arr1
@@ -201,6 +206,10 @@ nav
 }
 .nav1
 {
+
+ 
+
+    
     background-color: rgb(19, 19, 19);
     position: absolute;
     float: left;
@@ -214,12 +223,15 @@ nav
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .nav1 a[href="https://mateusz-tomaszek.pl/"]
 {
 
     text-decoration: none;
-    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: bold;
     color: rgb(255, 255, 255); /*rgb(0, 162, 255);*/
     left: 15px;
@@ -273,6 +285,7 @@ color: #8b8b8b;
     bottom: 900px;
     height: 100%;
     width: 100%;
+
 
 }
 .article1 img
