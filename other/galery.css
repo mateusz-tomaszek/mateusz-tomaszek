@@ -236,12 +236,14 @@ nav
     color: rgb(255, 255, 255); /*rgb(0, 162, 255);*/
     left: 15px;
     text-shadow: 4px 4px 6px rgba(0, 0, 0, 1);
+    transition: 0.15s all;
     
     
 }
 .nav1 a[href="https://mateusz-tomaszek.pl/"]:hover
 {
 color: #8b8b8b;
+
 }
 
 
