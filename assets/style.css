@@ -441,9 +441,9 @@ header
   background: linear-gradient(90deg, #fff 0%, #fff 60%,
    #292929 60%, #292929 100%);
    background-size: 150px; /**/
-   animation: roadanimate 1.1s linear infinite;
+   animation: roadanimate 0.5s linear infinite;
 }
-
+/*1.1*/
 .asphalt::after
 {
   content: '';
