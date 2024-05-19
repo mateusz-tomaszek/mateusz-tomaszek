@@ -1,3 +1,30 @@
+var bodyid = document.getElementById('body');
+
+function showFullscreen(imageSrc) {
+  var fullscreenContainer = document.getElementById('fullscreenContainer');
+  var fullscreenImage = document.getElementById('fullscreenImage');
+  
+  fullscreenImage.src = imageSrc;
+  fullscreenContainer.style.display = 'block';
+
+  
+  body.style.overflow = 'hidden';
+
+}
+
+function hideFullscreen() {
+  var fullscreenContainer = document.getElementById('fullscreenContainer');
+  
+  fullscreenContainer.style.display = 'none';
+  body.style.overflow = 'scroll';
+  body.style.overflowX = 'hidden';
+}
+
+
+
+
+
+
 var i = 0;
 var txt = 'Lorem ipsum typing effect!';
 var speed = 50; 

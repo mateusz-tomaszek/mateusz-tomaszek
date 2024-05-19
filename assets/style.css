@@ -667,6 +667,17 @@ p
   margin-top: 110vh;
 }
 
+@media only screen and (max-width:800px)
+{
+  .gall img
+  {
+    height: 270px !important;
+    width: 270px !important;
+  }
+}
+
+
+
 
 @media only screen and (max-width:800px) and (min-height:500px)
 {
@@ -844,8 +855,8 @@ p
 
   .gall img
   {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     border: white 1px solid;
     border-radius: 5px;
     margin: 5px;
@@ -853,6 +864,7 @@ p
     transition: 0.2s all;
     scale: 1;
     padding: 1px;
+    filter: drop-shadow(5px 5px 5px #000000);
   }
 
   .gall img:hover
@@ -888,4 +900,60 @@ hr
   
 
 }
+}
+
+
+
+
+
+
+#fullscreenContainer
+{
+  position: fixed;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  z-index: 999999;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(19, 19, 19, 1);
+}
+
+.fullscreen img
+{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  left: 8%;
+  width: 84% ;
+  top: 50%;
+  object-fit: contain;
+  
+  max-width: 84%;
+  max-height: 84%;
+  border: 0;
+  border-radius: 20px;
+  transform: translateY(-50%);
+  filter: drop-shadow(5px 5px 15px #000000);
+}
+.fullscreen i
+{
+  color: white;
+  transition: 0.2 all;
+  z-index: 2;
+  top: 1%;
+  position: absolute;
+  right: 3%;
+  cursor: pointer;
+  font-size: 40px;
+  filter: drop-shadow(2px 2px 5px #000000);
+}
+.fullscreen i:hover
+{
+  color: gray;
 }
