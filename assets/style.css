@@ -555,7 +555,7 @@ article
 
 .about
 {
-  background-image: linear-gradient(to bottom, rgba(19, 19, 19, 1), rgba(19, 19, 19, 0), rgba(19, 19, 19, 1)), url(https://i.ibb.co/9r967Th/bg1.jpg);
+  background-image: linear-gradient(to bottom, rgba(19, 19, 19, 1), rgba(19, 19, 19, 0.1), rgba(19, 19, 19, 1)), repeating-linear-gradient(45deg, rgba(31,32,4, 0.05) 0px, rgba(31,32,4, 0.05) 1px,transparent 1px, transparent 11px,rgba(31,32,4, 0.05) 11px, rgba(31,32,4, 0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(90deg, rgba(31,32,4, 0.05) 0px, rgba(31,32,4, 0.05) 1px,transparent 1px, transparent 11px,rgba(31,32,4, 0.05) 11px, rgba(31,32,4, 0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(0deg, rgba(31,32,4, 0.05) 0px, rgba(31,32,4, 0.05) 1px,transparent 1px, transparent 11px,rgba(31,32,4, 0.05) 11px, rgba(31,32,4, 0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(135deg, rgba(31,32,4, 0.05) 0px, rgba(31,32,4, 0.05) 1px,transparent 1px, transparent 11px,rgba(31,32,4, 0.05) 11px, rgba(31,32,4, 0.05) 12px,transparent 12px, transparent 32px),linear-gradient(90deg, rgb(41, 27, 158),rgb(249, 77, 212));
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -935,8 +935,7 @@ hr
   top: 50%;
   object-fit: contain;
   
-  max-width: 84%;
-  max-height: 84%;
+
   border: 0;
   border-radius: 20px;
   transform: translateY(-50%);
