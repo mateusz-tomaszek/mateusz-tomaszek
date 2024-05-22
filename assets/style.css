@@ -192,9 +192,10 @@ body
 
   color: #ffffff;
 }
- 
+
 
 .nav-container input[type="checkbox"]:checked ~ .menu-items {
+
   transform: translateX(0);
   display: flex;
 }
@@ -934,7 +935,8 @@ hr
   width: 84% ;
   top: 50%;
   object-fit: contain;
-  
+  max-width: 84%;
+  max-height: 84%;
 
   border: 0;
   border-radius: 20px;

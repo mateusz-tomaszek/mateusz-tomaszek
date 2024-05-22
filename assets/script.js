@@ -26,7 +26,7 @@ function hideFullscreen() {
 
 
 var i = 0;
-var txt = 'Lorem ipsum typing effect!';
+var txt = 'Mateusz Tomaszek';
 var speed = 50; 
 
 function typeWriter() {
@@ -43,6 +43,7 @@ function menuon()
   document.getElementById('l1').style.backgroundColor = "gray";
   document.getElementById('l2').style.backgroundColor = "gray";
   document.getElementById('l3').style.backgroundColor = "gray";
+  
 }
 
 function menuoff()
@@ -50,6 +51,7 @@ function menuoff()
   document.getElementById('l1').style.backgroundColor = "white";
   document.getElementById('l2').style.backgroundColor = "white";
   document.getElementById('l3').style.backgroundColor = "white";
+
 }
 
 
