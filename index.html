@@ -24,11 +24,11 @@
 <div>
 
 </div>
-<body id="body"  onload="hideFullscreen()">
+<body id="body"  >
   <!--<img src="https://i.ibb.co/fp5djZm/photo.png" alt="photo-me" id="without"> -->
 
 
- 
+ <!-- onload="hideFullscreen()" -->
 
  
     <div class="bg">
@@ -67,6 +67,10 @@
     </div>
     <div class="spacescroll" id="def" style="height: 10px;"></div>
     <header>
+
+      <div class="all">
+
+      
         <div class="headertext">
             <div class="headertitle">
                 <p>Through the Lens</p>
@@ -81,6 +85,9 @@
                   </p>
             </div>
         </div>
+
+
+      </div><!--   all -->
         
     </header>
 
@@ -138,7 +145,7 @@
           <hr>
       </div>
 
-                <div id="fullscreenContainer">
+                <div id="fullscreenContainer" style="display: none;">
                   <div class="fullscreen" >
                     
                     <i class="fa fa-times" onclick="hideFullscreen()"></i>

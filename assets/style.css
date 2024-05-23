@@ -273,13 +273,24 @@ header
 {
     float: left;
     width: 100%;
-    background-image: linear-gradient(to bottom, rgba(19, 19, 19, 1), rgba(19, 19, 19, 0), rgba(19, 19, 19, 1)), url("https://i.ibb.co/MkNKnSX/bg2.webp");  
+    background-image: linear-gradient(to bottom, rgba(19, 19, 19, 1), rgba(19, 19, 19, 0), rgba(19, 19, 19, 1)), repeating-linear-gradient(45deg, hsla(64,83%,54%,0.05) 0px, hsla(64,83%,54%,0.05) 1px,transparent 1px, transparent 11px,hsla(64,83%,54%,0.05) 11px, hsla(64,83%,54%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(90deg, hsla(64,83%,54%,0.05) 0px, hsla(64,83%,54%,0.05) 1px,transparent 1px, transparent 11px,hsla(64,83%,54%,0.05) 11px, hsla(64,83%,54%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(0deg, hsla(64,83%,54%,0.05) 0px, hsla(64,83%,54%,0.05) 1px,transparent 1px, transparent 11px,hsla(64,83%,54%,0.05) 11px, hsla(64,83%,54%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(135deg, hsla(64,83%,54%,0.05) 0px, hsla(64,83%,54%,0.05) 1px,transparent 1px, transparent 11px,hsla(64,83%,54%,0.05) 11px, hsla(64,83%,54%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(90deg, rgb(234,163,49),rgb(48,55,71));  
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin-top: 100px;
     height: 70vh;
     overflow-x: hidden;
+}
+.all
+{
+  float: left;
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgba(19, 19, 19, 1), rgba(19, 19, 19, 0), rgba(19, 19, 19, 1)), url("https://i.ibb.co/MkNKnSX/bg2.webp");  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  overflow-x: hidden;
 }
 
 .headertext
