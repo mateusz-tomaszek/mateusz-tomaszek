@@ -72,8 +72,8 @@ body
 }
 
 .nav-container {
-    left: 5%;
-    width: 95%;
+    left: 2%;
+    width: 96%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -170,7 +170,7 @@ body
 .navbar .menu-items {
   height: 100vh;
   width: 100vw;
-  margin-left: -5vw;
+  margin-left: -2vw;
   transform: translate(150%);
   flex-direction: column;
   transition: transform 0.5s ease-in-out;
@@ -298,13 +298,16 @@ header
     margin-top: 30px;
     width: 90%;
     position: relative;
-    height: 240px ;
+    height: 240px;
     
     background-color: rgba(19, 19, 19, 0.8);
-	  transform: translatey(0px);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+
+
+	  transform: translateY(0px);
 	  animation: float 6s ease-in-out infinite/*, border-flicker 2s linear infinite*/;
     border-radius: 20px;
-  
     color: white;
 
     border: 0.15em solid var(--glow-color);
@@ -427,6 +430,8 @@ header
   align-items: center;
   justify-content: center;
   display: flex;
+
+  
 }
 
 .asphalt
@@ -438,7 +443,8 @@ header
   transform-style: preserve-3d;
   transform-origin: bottom;
   transform: perspective(50px) rotateX(10deg);
-  box-shadow: 0 15px 35px 0px rgba(10, 10, 10, 0.6);
+  /* box-shadow: 0 15px 35px 0px rgba(10, 10, 10, 0.6); */
+  box-shadow: 0px 4px 24px 4px rgba(0, 0, 0, 0.8);
 }
 .asphalt::before
 {
@@ -653,11 +659,11 @@ p
   }
   30%
   {
-    padding: 0px 55px 5px 55px;
+    padding: 0px 75px 5px 75px;
   }
   60%
   {
-    padding: 0px 55px 5px 55px;
+    padding: 0px 75px 5px 75px;
   }
   90%
   {
