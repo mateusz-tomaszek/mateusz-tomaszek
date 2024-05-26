@@ -760,7 +760,7 @@ p
 {
   float: left;
   width: 90%;
-  height: 30vh;
+  height: 40vh;
   margin-left: 5%;
   margin-top: 100px;
   text-align: center;
@@ -780,7 +780,7 @@ p
   display:flex;
   flex-wrap: wrap;
   flex-direction: row;
-  height: 100px;
+  height: 150px;
   margin-top: 23px;
 
   
@@ -903,12 +903,19 @@ hr
   margin-top: 50px;
 }
 
-
+@media only screen and (max-height:499px) and (max-width:660px)
+{
+  .headermessage
+  {
+    font-size: 80%;
+    margin-top: 2%;
+  }
+}
 @media only screen and (max-height:499px)
 {
   .headertext
   {
-    height: 195px;
+    height: 205px;
   }
 
   .contactdiv
