@@ -818,19 +818,27 @@ p
     filter: blur(1px);
 }
 
-.facebook
+.youtube
 {
-  color: #326fff;
+  color: transparent;
+  background: -moz-linear-gradient(180deg, #f03333 0%,#f03333 25%,#dc2743 50%,#cc2323 75%,#bc1833 100%); 
+  background: -webkit-linear-gradient(180deg, #f03333 0%,#f03333 25%,#dc2743 50%,#cc2323 75%,#bc1833 100%); 
+  background: linear-gradient(180deg, #f03333 0%,#f03333 25%,#dc2743 50%,#cc2323 75%,#bc1833 100%); 
+  background-clip: text;
+  -webkit-background-clip: text;
+
   background-color: #131313;
   transition: 0.2s all;
   
 }
 
-.facebook:hover
+.youtube:hover
 {
   color: white;
  
-  background-color: #326fff;;
+  background: -moz-linear-gradient(180deg, #f03333 0%,#f03333 25%,#dc2743 50%,#cc2323 75%,#bc1833 100%); 
+  background: -webkit-linear-gradient(180deg, #f03333 0%,#f03333 25%,#dc2743 50%,#cc2323 75%,#bc1833 100%); 
+  background: linear-gradient(180deg, #f03333 0%,#f03333 25%,#dc2743 50%,#cc2323 75%,#bc1833 100%); 
 }
 
 .instagram
