@@ -30,56 +30,48 @@
 
 
 
-
- <!-- Loader -->
+<!-- Loader -->
 <div id="loader">
-  <div></div>
+  <div id="progress-bar"></div>
 </div>
 
 
-<style>
-#loader {
-  position: fixed; 
-  top: 50%; 
-  left: 50%; 
-  transform: translate(-50%, -50%); 
-  z-index: 9999; /* Adjust z-index if necessary */
-  display: block;
-  background: radial-gradient(circle, rgba(19,19,19,0.9) 20%, rgba(19,19,19,0) 60%);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100vw;
-  padding: 250px;
-}
-
-#loader div {
-  
-  border: 8px solid rgba(255, 255, 255, 0.7); /* Semi-transparent border */
-  border-radius: 50%; 
-  border-top: 8px solid #e600ff; /* Primary color */
-  width: 60px; 
-  height: 60px; 
-  animation: spin 1.2s linear infinite;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
-}
-
-/* Animation */
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-</style>
 <script>
-  // Pokazuje loader podczas ładowania strony
-window.addEventListener('load', function() {
-  document.getElementById('loader').style.display = 'none';   //
-});
+  // Funkcja do aktualizacji paska postępu
+  function updateProgressBar(percentage) {
+      document.getElementById('progress-bar').style.width = percentage + '%';
+  }
 
-// Pokazuje loader na początku ładowania strony
-window.addEventListener('beforeunload', function() {
-  document.getElementById('loader').style.display = 'block';
-});
+  // Monitoruje postęp ładowania
+  function monitorLoading() {
+      let interval;
+      let progress = 0;
+
+      // Funkcja do symulacji postępu ładowania
+      function simulateProgress() {
+          interval = setInterval(() => {
+              progress += 5; // Zwiększamy postęp o 5%
+              if (progress >= 100) {
+                  progress = 100;
+                  clearInterval(interval);
+              }
+              updateProgressBar(progress);
+          }, 100); // Aktualizacja co 100 ms
+      }
+
+      // Pokazuje pasek postępu na początku ładowania
+      simulateProgress();
+
+      // Po załadowaniu strony, ukrywa loader
+      window.addEventListener('load', function() {
+          setTimeout(() => {
+              document.getElementById('loader').style.display = 'none'; // Ukrywa loader po zakończeniu ładowania
+          }, 500); // Dodaje krótki czas na dokończenie animacji paska
+      });
+  }
+
+  // Uruchamia monitorowanie postępu ładowania
+  monitorLoading();
 </script>
 
 

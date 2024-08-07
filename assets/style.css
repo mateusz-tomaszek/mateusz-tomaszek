@@ -4,9 +4,31 @@
 {
 margin: 0 auto;
 font-family: sans-serif;
+}
 
 
 
+
+  /* Loader */
+  #loader {
+    position: fixed; 
+    top: 60px; 
+    left: 0; 
+    width: 100vw; 
+    height: 5px; /* Wysokość paska */
+    background: #131313;
+    z-index: 999999; /* Z-index dla loadera */
+    display: block;
+    overflow: hidden; /* Ukrywa wszystko poza kontenerem */
+}
+
+#progress-bar {
+    height: 100%;
+    background: #e1b70b; /* Kolor paska */
+    width: 0%; /* Startowa szerokość paska */
+    transition: width 0.3s ease; /* Płynna zmiana szerokości */
+    position: absolute; /* Ustawia element w lewym górnym rogu kontenera */
+    left: 0; /* Ustawienie od lewej */
 }
 
 /*  */
@@ -529,7 +551,7 @@ header
 }
 
 
-@keyframes caranimate {
+@keyframes caranimate_off { /*remove "_off"*/
   0% {
     
     transform: translatex(-20px);
