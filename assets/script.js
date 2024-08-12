@@ -1,3 +1,9 @@
+
+
+
+
+
+
 var bodyid = document.getElementById('body');
 
 function showFullscreen(imageSrc) {
