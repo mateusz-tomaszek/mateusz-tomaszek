@@ -1,3 +1,33 @@
+document.addEventListener('DOMContentLoaded', function() {
+  var images = document.querySelectorAll('.gall img');
+
+  function handleScroll() {
+    var windowHeight = window.innerHeight;
+
+    images.forEach(function(image) {
+      var imageTop = image.getBoundingClientRect().top;
+      var imageHeight = image.offsetHeight;
+      
+      if (imageTop < windowHeight && imageTop + imageHeight > 0) {
+        // Sprawdzamy, czy obrazek jest w obrębie okna przeglądarki
+        if (image.classList.contains('scroll-in-left') || image.classList.contains('scroll-in-right')) {
+          image.classList.add('visible');
+        }
+      } else {
+        // Jeżeli obrazek jest poza oknem przeglądarki, ukrywamy go
+        if (image.classList.contains('scroll-in-left') || image.classList.contains('scroll-in-right')) {
+          image.classList.remove('visible');
+        }
+      }
+    });
+  }
+
+  window.addEventListener('scroll', handleScroll);
+  handleScroll(); // Wywołaj funkcję na początku, aby zdjęcia, które są już w widoku, zostały pokazane
+});
+
+
+
 
 
 

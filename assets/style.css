@@ -98,6 +98,7 @@ body
     background-color: rgb(19, 19, 19);
     color: white;
     overflow-x: hidden;
+    user-select: none; /* Dla większości przeglądarek */
     
 }
 
@@ -161,7 +162,7 @@ body
     transition: 0.15s ease-in-out;
     background-color: rgb(22, 19, 0);
     letter-spacing: 1px;
-    border: 2px rgb(255, 193, 22) solid;
+    border: 2px rgb(201, 19, 207) solid;
 
 }
 
@@ -346,112 +347,149 @@ header
 
 .headertext
 {
+  cursor: default;
     margin-top: 30px;
     width: 90%;
     position: relative;
-    height: 240px;
+    height: 200px;
     
-    background-color: rgba(19, 19, 19, 0.8);
+    
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
 
 
 	  transform: translateY(0px);
 	  animation: float 6s ease-in-out infinite/*, border-flicker 2s linear infinite*/;
-    border-radius: 20px;
+    border-radius: 10px;
     color: white;
 
-    border: 0.15em solid var(--glow-color);
+    border: 2px solid rgba(43, 43, 43, 0.8);
 
-    -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    /* -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
     0px 0px 0.5em 0px var(--glow-color), 0 25px 25px 0px rgba(0, 0, 0, 0.6);
     -moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
     0px 0px 0.5em 0px var(--glow-color), 0 5px 25px 0px rgba(0, 0, 0, 0.6);
     box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
-    0px 1px .5em 0px var(--glow-color), 0 15px 25px 0px rgba(0, 0, 0, 0.6);
-
-    
-    
+    0px 1px .5em 0px var(--glow-color), 0 15px 25px 0px rgba(0, 0, 0, 0.6);    */
 }
+
+
+.headermenu {
+  float: left;
+  width: 100%;
+  height: 30px;
+  background-color: rgba(77, 77, 79, 0.85);
+  text-align: center; /* Wyśrodkowuje tekst wewnątrz kontenera */
+  position: relative; /* Ustawienie pozycji w celu użycia `absolute` dla `.centercolors` */
+  
+}
+
+.centercolors {
+  background-color: none;
+  float: left;
+  width: 98%;
+  height: 20px;
+  position: absolute; /* Ustawienie pozycji jako absolutne */
+  left: 50%; /* Pozycjonowanie od lewej krawędzi kontenera */
+  top: 50%; /* Pozycjonowanie od górnej krawędzi kontenera */
+  transform: translate(-50%, -50%); /* Przesunięcie elementu, aby wyśrodkować go dokładnie */
+  display: flex; /* Użycie Flexbox do wyśrodkowania kółek w wierszu */
+  align-items: center; /* Wyśrodkowanie kółek w pionie */
+  justify-content: flex-start; /* Ustawienie kółek przy lewej krawędzi kontenera */
+}
+
+.colorleft {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%; /* Tworzy okrąg */
+  margin: 0 4px; /* Minimalne odstępy między kółkami */
+}
+
+.color1 {
+  background-color: #ed1c6f; /* Kolor 1 */
+}
+
+.color2 {
+  background-color: #e8e925; /* Kolor 2 */
+}
+
+.color3 {
+  background-color: #74c54f; /* Kolor 3 */
+}
+
+.headermenu p {
+  position: absolute; /* Pozycjonowanie absolutne, aby wyśrodkować tekst */
+  left: 50%; /* Pozycjonowanie od lewej krawędzi kontenera */
+  top: 50%; /* Pozycjonowanie od górnej krawędzi kontenera */
+  transform: translate(-50%, -50%); /* Przesunięcie tekstu, aby wyśrodkować go dokładnie */
+  margin: 0; /* Usunięcie domyślnych marginesów */
+  color: rgb(248, 248, 248); /* Kolor tekstu, jeśli potrzebny */
+}
+
+
+.headerall {
+  width: 100%;
+  height: 170px; /* Całkowita wysokość kontenera */
+  background-color: rgba(51, 51, 51, 0.85);
+  display: flex;
+  flex-direction: column; /* Ułożenie dzieci w kolumnie */
+  align-items: center; /* Wyśrodkowanie w poziomie */
+  justify-content: center; /* Wyśrodkowanie w pionie */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.headerallpadd {
+  width: 90%; /* Szerokość kontenera */
+  display: flex;
+  flex-direction: column; /* Ułożenie dzieci w kolumnie */
+  align-items: center; /* Wyśrodkowanie w poziomie */
+}
+
+.headerall-header {
+  width: 100%; /* Pełna szerokość kontenera */
+  height: 100px; /* Stała wysokość dla nagłówka */
+  display: flex;
+  align-items: center; /* Wyśrodkowanie w pionie */
+  justify-content: center; /* Wyśrodkowanie w poziomie */
+  margin-bottom: 10px; /* Przerwa między nagłówkiem a paragrafem */
+}
+
+.headerall-header h2 {
+  margin: 0; /* Usunięcie domyślnych marginesów */
+  color: white; /* Kolor tekstu */
+}
+
+.headerall-content {
+  width: 100%; /* Pełna szerokość kontenera */
+  height: 230px; /* Stała wysokość dla paragrafu */
+  display: flex;
+  align-items: center; /* Wyśrodkowanie w pionie */
+  justify-content: center; /* Wyśrodkowanie w poziomie */
+}
+
+.headerall-content p {
+  margin: 0; /* Usunięcie domyślnych marginesów */
+  color: white; /* Kolor tekstu */
+  text-align: center; /* Wyśrodkowanie tekstu w poziomie */
+}
+
+
 
 @keyframes float {
   0% {
-    
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.8);
     transform: translatey(0px);
   }
   50% {
-    
+    box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.5);
     transform: translatey(-20px);
   }
   100% {
-
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.8);
     transform: translatey(0px);
   }
 }
-
-
-
-
-
-
-:root {
-  --glow-color: rgb(255, 193, 22);
-}
-
-
-
-
-
-.headertitle
-{
-    
-    position: absolute;
-    height: 62px;
-    width: 100%;    
-    font-weight: bold;
-    font-size: 35px;
-    cursor: default;
-    text-align: center;
-}
-
-.headerspace
-{
-    position: absolute;
-    top: 62px;
-    left: 13px;
-    right: 13px;
-    height: 1%;
-    background-color: white;
-
-    border-radius: 20px
-}
-.headermessage
-{
-    position: absolute;
-    width: 100%;
-    top: 16%;
-    height: 84%;
-    cursor: default;
-    font-size: 16px;
-}
-
-.headertext p
-
-{
-    margin: 13px;
-}
-
-#messagecenter {
-    font-size: 110%;
-    margin: 0px;
-    left: 13px;
-    width: 95%;
-    top: 50%;
-    position: absolute;
-    transform: translateY(-50%);
-}
-
-
 
     @keyframes bg-spin {
       to {
@@ -459,6 +497,10 @@ header
       }
     }
   
+
+
+
+    
 
   
   @property --border-angle {
@@ -734,27 +776,50 @@ p
 {
   margin-top: 110vh;
 }
-
+@media only screen and (min-width:801px)
+{
+  .headertext h2 
+  {
+    font-size: 180%;
+  }
+  .headertext p
+  {
+    font-size: 115%;
+  }
+}
 @media only screen and (max-width:800px)
 {
   .gall img
   {
-    height: 270px !important;
-    width: 270px !important;
+    height: 270px;
+    width: 270px;
   }
+
+.headertext
+{
+  height: 350px;
 }
+.headerall-header
+{
+  height: 50px;
+}
+  .headerall
+  {
+    height: 320px;
+  }
+  .headertext p
+  {
+    font-size: 105%;
+  }
 
-
+}
 
 
 @media only screen and (max-width:800px) and (min-height:500px)
 {
 
 
-  .headertext
-  {
-    height: 340px;
-  }
+
   .typing-demo
   {
     font-size: 25px;
@@ -984,18 +1049,13 @@ hr
 
 @media only screen and (max-height:499px) and (max-width:660px)
 {
-  .headermessage
-  {
-    font-size: 80%;
-    margin-top: 2%;
-  }
+
 }
 @media only screen and (max-height:499px)
 {
-  .headertext
-  {
-    height: 205px;
-  }
+
+
+
 
   .contactdiv
 {
@@ -1063,16 +1123,48 @@ hr
   color: gray;
 }
 
-
-
-
-
-
-
 .foot p
 {
 
 
   margin-top: 80px;
   font-size: 18px;
+}
+
+
+
+
+
+/* Dodajemy animacje dla zdjęć */
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+}
+
+/* Animacje pojawiania się z lewej strony */
+.scroll-in-left {
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+.scroll-in-left.visible {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* Animacje pojawiania się z prawej strony */
+.scroll-in-right {
+  transform: translateX(100px);
+  opacity: 0;
+  transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+.scroll-in-right.visible {
+  transform: translateX(0);
+  opacity: 1;
 }
