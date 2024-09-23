@@ -160,7 +160,7 @@ body
 
 .navbar .nav-container a:hover{
     transition: 0.15s ease-in-out;
-    background-color: rgb(22, 19, 0);
+    background-color: rgb(22, 0, 22);
     letter-spacing: 1px;
     border: 2px rgb(201, 19, 207) solid;
 
