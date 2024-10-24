@@ -27,11 +27,15 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+// --------------------
 
+document.addEventListener('dragstart', function(e) {
+    if (e.target.tagName === 'IMG') {
+        e.preventDefault(); // Zablokowanie przeciągania obrazków
+    }
+});
 
-
-
-
+// --------------------
 
 
 var bodyid = document.getElementById('body');
