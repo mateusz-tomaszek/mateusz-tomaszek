@@ -945,7 +945,7 @@ p
     filter: blur(1px);
 }
 
-.youtube
+.music
 {
   color: transparent;
   background: -moz-linear-gradient(180deg, #f03333 0%,#f03333 25%,#dc2743 50%,#cc2323 75%,#bc1833 100%); 
@@ -959,7 +959,7 @@ p
   
 }
 
-.youtube:hover
+.music:hover
 {
   color: white;
  
@@ -988,15 +988,15 @@ p
     color: white;
   }
   
-  .spotify
+  .x-twitter
   {
   background: #131313;
-  color: #13dc42; 
+  color: #ffffff; 
   transition: 0.2s all;
   }
 
-  .spotify:hover {
-    background-color: #13dc42;
+  .x-twitter:hover {
+    background-color: #5c5c5c;
     color: white;
   }
 
